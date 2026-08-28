@@ -1,10 +1,10 @@
 window.COURSE_DATA = {
-  "shortTitle": "Year 8 Agriculture",
+  "shortTitle": "Agriculture",
   "fileSlug": "year-8-agriculture",
   "storagePrefix": "year-8-agriculture",
   "modules": [
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 1,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "50 minutes",
@@ -627,7 +627,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 2,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "50 minutes",
@@ -1238,7 +1238,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 3,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "50 minutes",
@@ -1851,7 +1851,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 4,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "55 minutes",
@@ -2467,7 +2467,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 5,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "60 minutes",
@@ -3078,7 +3078,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 6,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "60 minutes",
@@ -3714,7 +3714,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 7,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "60 minutes",
@@ -4322,7 +4322,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 8,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "60 minutes",
@@ -4953,7 +4953,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 9,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "60 minutes",
@@ -5564,7 +5564,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 10,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "60 minutes",
@@ -6180,7 +6180,7 @@ window.COURSE_DATA = {
       ]
     },
     {
-      "project": "Year 8 Agriculture",
+      "project": "Agriculture",
       "projectModule": 11,
       "cadence": "Teacher-adjustable two-week container",
       "sourceLessonMinutes": "65 minutes",

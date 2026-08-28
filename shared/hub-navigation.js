@@ -21,7 +21,7 @@
   const isCourseHome = path === `${rootPath}/` || path === `${rootPath}/index.html`;
   const bar = document.createElement("nav");
   bar.className = "course-family-nav screen-only";
-  bar.setAttribute("aria-label", "Year 8 Agriculture course navigation");
+  bar.setAttribute("aria-label", "Agriculture course navigation");
 
   const inner = document.createElement("div");
   inner.className = "course-family-nav__inner";
@@ -29,7 +29,7 @@
   const brand = document.createElement("a");
   brand.className = "course-family-nav__brand";
   brand.href = new URL("index.html", courseRoot).href;
-  brand.innerHTML = '<span class="course-family-nav__mark" aria-hidden="true">8A</span><span>Year 8 Agriculture</span>';
+  brand.innerHTML = '<span class="course-family-nav__mark" aria-hidden="true">8A</span><span>Agriculture</span>';
 
   const links = document.createElement("div");
   links.className = "course-family-nav__links";
