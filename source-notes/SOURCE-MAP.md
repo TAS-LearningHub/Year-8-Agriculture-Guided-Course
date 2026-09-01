@@ -1,5 +1,7 @@
 # TASK 11A — Agricultural Technology authoritative source and syllabus map
 
+> **Superseded curriculum decision (1 September 2026).** This file preserves the detailed 2026 source audit, but its Technology 7–8 syllabus choice and two-week container proposal are no longer current. Use `source-map-v3.0.json` and `build-scope-v3.0.md` for the controlling Year 8 Agriculture Technology elective identity, 2027 syllabus, 20-week/50-period allocation and `AGT5` outcomes adjusted under `AGT4-ADJ-01`.
+
 **Status:** final research and QA handoff for TASK 11 integration  
 **Reviewed:** 5 August 2026  
 **Boundary:** Drive-first source mapping only. No repository, GitHub, release or Main Page changes were made.

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "year-8-agriculture-core-artefacts-v3.0",
+  "course_id": "year-8-agriculture-guided-course",
+  "source_map_id": "year-8-agriculture-elective-source-map-v3.0",
+  "source_map_sha256": "b7389155d47a54634df9f8db06345db01946aac470ea288a6dc03f414927337b",
+  "verified_date": "2026-09-01",
+  "privacy": {
+    "student_data_included": false,
+    "private_student_records": "excluded",
+    "public_candidate_rule": "No student names, signatures, submissions, grades or private response records may enter this repository."
+  },
+  "artefacts": [
+    {
+      "artefact_id": "year-8-agriculture-2026-drive-sequence",
+      "type": "teacher-posted-lesson-sequence",
+      "authority": "authoritative for the eleven-module order, source lesson intent and supplied learning prompts",
+      "inventory_path": "source-notes/DRIVE-SOURCE-INVENTORY.csv",
+      "inventory_sha256": "05e5cb5b6deb8c799c24208420a378fdf2656298d015f1a0dcca07a01aef2649",
+      "current_file_count": 45,
+      "module_coverage": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "student_routes": ["index.html", "module.html?module=1", "module.html?module=11", "folio.html"],
+      "boundary": "Does not authorise a 22-week structure, complete practical sequence, dimensioned project plan, local safety procedure or formal assessment task."
+    },
+    {
+      "artefact_id": "legacy-agriculture-reference-set",
+      "type": "supplementary-legacy-material",
+      "authority": "reference-only; not current program, plan, practical, WHS or factual authority",
+      "inventory_path": "source-notes/DRIVE-SOURCE-INVENTORY.csv",
+      "file_count": 2,
+      "public_use": "Only stable concepts already verified in the current claims register may be retained."
+    },
+    {
+      "artefact_id": "agriculture-technology-2024-official-source-set",
+      "type": "official-syllabus-source-set",
+      "authority": "course requirements, focus areas, Stage 4 adjustment rule and exact official outcome wording",
+      "official_routes": [
+        "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+        "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/outcomes",
+        "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa1b886033",
+        "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa84e43857",
+        "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa51218d9b"
+      ],
+      "snapshot_sha256": [
+        "073419607f0d885dbfca2a5cb1bc244c398f13233948e0d420b9278dbe5c0793",
+        "249aefa43c44f133651c53e4e1ec299a56744baa8294de5e54a884b55d2c0a37",
+        "de565fc6e9d5c5196f30eaf1e6397794b589ab622f60168ab43f1d992292d228",
+        "d6266c8a0dc9e353e7bb3c7611e3d0db1bf183042609c283a78abf0aa922098d",
+        "6ed13e4f056f347fb2a4061bfea5b9c5d30828c4ba6626ccdfbd0d012df3f799"
+      ]
+    },
+    {
+      "artefact_id": "current-project-plan",
+      "type": "dimensioned-plan-or-production-brief",
+      "status": "GAP",
+      "authority": "Teacher to confirm or provide",
+      "public_treatment": "The site retains an explicit plan-status boundary and does not infer dimensions, layout, quantities, capacities, tools, processes or safety zones."
+    },
+    {
+      "artefact_id": "current-practical-and-assessment-set",
+      "type": "local-practical-safety-and-assessment-authority",
+      "status": "GAP",
+      "authority": "Teacher to confirm or provide",
+      "public_treatment": "No practical method, animal-care direction, chemical use, food-handling procedure, local WHS control, assessment condition, mark, date or submission rule is invented."
+    }
+  ]
+}

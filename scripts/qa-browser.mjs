@@ -30,7 +30,10 @@ async function checkViewport(label, viewport) {
   await page.goto(`${base}/index.html`, { waitUntil: "networkidle" });
   must(await page.locator("h1").count() === 1, `${label}: landing page must have one H1`);
   must(await page.locator('.module-card:has(a[href^="module.html"])').count() === 11, `${label}: landing page must show 11 modules`);
-  must(await page.getByText(/Integration inference — teacher-adjustable sequence/i).count() > 0, `${label}: cadence inference is missing`);
+  must(await page.getByText(/Teacher-adjustable sequence:/i).count() > 0, `${label}: truthful teacher-adjustable sequence notice is missing`);
+  must(await page.getByText(/20 weeks, 50 × 60-minute periods, 5 periods per fortnight/i).isVisible(), `${label}: Year 8 elective timing is not visibly presented`);
+  must(await page.getByText(/additional study is required/i).first().isVisible(), `${label}: 100-hour completion boundary is not visibly presented`);
+  must(await page.getByRole("heading", { name: "Stage 4 outcome opportunities" }).isVisible(), `${label}: Agriculture Technology outcome alignment is not visible`);
   must(await page.getByText(/No current dimensioned project plan was supplied/i).count() > 0, `${label}: plan gate is missing`);
   const indexOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   must(indexOverflow <= 1, `${label}: landing page overflows horizontally by ${indexOverflow}px`);
@@ -86,6 +89,22 @@ async function checkViewport(label, viewport) {
   must(folioOverflow <= 1, `${label}: folio overflows horizontally by ${folioOverflow}px`);
   await page.locator("#folio-card-04").screenshot({ path: path.join(output, `${label}-folio-card-04.png`) });
   await page.locator("#folio-card-12").screenshot({ path: path.join(output, `${label}-folio-card-12.png`) });
+
+  await page.goto(`${base}/teacher-resources.html`, { waitUntil: "networkidle" });
+  must(await page.locator("h1").count() === 1, `${label}: Teacher Resources must have one H1`);
+  must(await page.getByRole("link", { name: "Teaching program PDF" }).count() === 1, `${label}: Teacher Resources needs one PDF program link`);
+  must(await page.getByRole("link", { name: "Editable teaching program" }).count() === 1, `${label}: Teacher Resources needs one Word program link`);
+  must(await page.getByText(/alignment record/i).count() === 0, `${label}: Teacher Resources must not show an alignment-record control`);
+  must(await page.locator("table").count() === 0, `${label}: Teacher Resources must not retain the clipped inline program table`);
+  const teacherOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  must(teacherOverflow <= 1, `${label}: Teacher Resources overflows horizontally by ${teacherOverflow}px`);
+  const navBoxes = await page.locator(".course-family-nav__links a").evaluateAll((links) => links.map((link) => {
+    const box = link.getBoundingClientRect();
+    return { text: link.textContent?.trim(), left: box.left, right: box.right, width: box.width, viewport: window.innerWidth };
+  }));
+  must(navBoxes.length === 6, `${label}: primary navigation must expose all six links`);
+  must(navBoxes.every((box) => box.left >= -0.5 && box.right <= box.viewport + 0.5 && box.width > 0), `${label}: a primary navigation link is clipped: ${JSON.stringify(navBoxes)}`);
+  await page.screenshot({ path: path.join(output, `${label}-teacher-resources.png`), fullPage: true });
 
   await page.keyboard.press("Tab");
   const focused = await page.evaluate(() => ({ tag: document.activeElement?.tagName, text: document.activeElement?.textContent?.trim().slice(0, 80) }));

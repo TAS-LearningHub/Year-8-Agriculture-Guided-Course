@@ -4,7 +4,7 @@ Status: reviewable TASK 11 integration input only. No formal assessment status i
 
 ## Student evidence promise
 
-Every module must leave a student with answerable, saved and printable evidence. A viewed slide, completion tick or quiz score by itself is not sufficient. The website has exactly 11 modules, one-to-one with Drive modules 1-11. Each module is a teacher-adjustable two-week integration container anchored by the supplied 50-65 minute lesson; this must not be described as a formally authorised 22-week programme.
+Every module must leave a student with answerable, saved and printable evidence. A viewed slide, completion tick or quiz score by itself is not sufficient. The website has exactly 11 modules, one-to-one with Drive modules 1-11. The modules keep their supplied order within the confirmed 20-week, 50-period elective allocation; exact period placement remains teacher-adjustable.
 
 Each module contains exactly three TASK 11A named theory sections and exactly ten student-learning MCQs per section. This produces 33 sections and 330 MCQs overall. Each module should also contain:
 
@@ -21,17 +21,17 @@ Each module contains exactly three TASK 11A named theory sections and exactly te
 
 | Stage | 2026 Drive source | Minimum saved student evidence | Primary outcome mapping |
 |---|---|---|---|
-| 1. Introduction to Agriculture | `1.1-1.4 Introduction to Agriculture` | agriculture definition; five daily products; sector/purpose/product table; selected-sector research; responses on Indigenous sustainability, settlement challenges and technology; exit reflection | TE4-PDP-01, TE4-SDP-01, TE4-DES-01 |
-| 2. Value of Agriculture and Food Security | `2.1-2.4 The Value of Agriculture & Food Security` | product-sector revision; supported importance statistics; economic/local/export explanations; export-market responses; food-security definition, four components and threats | TE4-SDP-01, TE4-PDP-01, TE4-DES-01 |
-| 3. Introduction to Beef Cattle and Breeds | `3.1-3.4 Introduction to Beef Cattle & Breeds` | ten-breed classification/image record; Bos indicus/Bos taurus distinction; selective-breeding explanations; chosen-breed research and three verified facts | TE4-PDP-01, TE4-SDP-01, TE4-DES-01 |
-| 4. Beef Cattle Farming and Nutrition | `4.1-4.5 Beef Cattle Farming & Nutrition / Build a Beef Farm` | extensive/intensive definitions; grass-fed/grain-fed comparison table; paired farm design with climate, breed and feeding choices; evidence-based justification | TE4-PPM-01, TE4-DES-01, TE4-SDP-01, TE4-PDP-01 |
-| 5. Dairy Breeds and Milk Production | `5.1-5.4 Dairy Breeds & Milk Production` | breed image/features table; labelled Australian dairy-region map with suitability notes; source-linked day-in-the-life responses; value-adding definition and examples | TE4-PDP-01, TE4-SDP-01, TE4-DES-01 |
-| 6. Dairy Processing and Nutrition | `6.1-6.4 Dairy Processing & Nutrition` | pasteurisation/homogenisation explanations; ordered farm-to-fridge flowchart; nutrient-role table; dairy alternatives response; health challenge explanation | TE4-PDP-01, TE4-DES-01 |
-| 7. Horticulture and Growing Regions | `7.1-7.4 What Is Horticulture & Where Do We Grow It?` | horticulture definition/products; intensive-system explanation; region-description match; labelled/shaded map; factor explanations; region-product suitability justification | TE4-SDP-01, TE4-PDP-01, TE4-DES-01 |
-| 8. Paddock to Plate - Technology, Nutrition and Choice | `8.1-8.4 From Paddock to Plate` | potato supply-chain responses; technology benefits; RIPPA job match and impact explanation; plant-part table; nutrients/serves/seasonality/colour/freshness responses | TE4-PDP-01, TE4-SDP-01, TE4-DES-01 |
-| 9. Australian Pork Industry and Breeds | `9.1-9.4 Introduction to Pork and the Australian Pork Industry` | pork/value-added products; verified industry facts; fresh/processed origin comparison; product-label investigation; breed characteristics; crossbreeding/hybrid-vigour explanation | TE4-PDP-01, TE4-SDP-01, TE4-DES-01 |
-| 10. Pig Farming Systems and Feeding | `10.1-10.4 Pig Farming Systems and Feeding` | system identification; features and welfare explanations; four-system research table; justified farmer choice; feeding/growth/welfare responses | TE4-SDP-01, TE4-PDP-01, TE4-DES-01 |
-| 11. Australian Poultry Industry - Farm to Plate | `11.1-11.4 The Australian Poultry Industry` | poultry/broiler/layer definitions; location factors; cage/barn/free-range comparison; welfare judgement using at least three taught facts; trade-off table; optional practical evidence only where the teacher supplies/approves it | TE4-PDP-01, TE4-SDP-01, TE4-DES-01; TE4-SAF-01 only where separately evidenced through teacher-confirmed practical work |
+| 1. Introduction to Agriculture | `1.1-1.4 Introduction to Agriculture` | agriculture definition; five daily products; sector/purpose/product table; selected-sector research; responses on Indigenous sustainability, settlement challenges and technology; exit reflection | AGT5-PRA-01, AGT5-COM-01 |
+| 2. Value of Agriculture and Food Security | `2.1-2.4 The Value of Agriculture & Food Security` | product-sector revision; supported importance statistics; economic/local/export explanations; export-market responses; food-security definition, four components and threats | AGT5-ENV-01, AGT5-PRA-01, AGT5-COM-01 |
+| 3. Introduction to Beef Cattle and Breeds | `3.1-3.4 Introduction to Beef Cattle & Breeds` | ten-breed classification/image record; Bos indicus/Bos taurus distinction; selective-breeding explanations; chosen-breed research and three verified facts | AGT5-APG-01, AGT5-PRA-01 |
+| 4. Beef Cattle Farming and Nutrition | `4.1-4.5 Beef Cattle Farming & Nutrition / Build a Beef Farm` | extensive/intensive definitions; grass-fed/grain-fed comparison table; evidence-based system comparison | AGT5-PRA-01, AGT5-ENV-01 |
+| 5. Dairy Breeds and Milk Production | `5.1-5.4 Dairy Breeds & Milk Production` | breed image/features table; labelled Australian dairy-region map with suitability notes; source-linked day-in-the-life responses; value-adding definition and examples | AGT5-APG-01, AGT5-PRA-01 |
+| 6. Dairy Processing and Nutrition | `6.1-6.4 Dairy Processing & Nutrition` | pasteurisation/homogenisation explanations; ordered farm-to-fridge flowchart; nutrient-role table; dairy alternatives response; health challenge explanation | AGT5-PRA-01, AGT5-COM-01 |
+| 7. Horticulture and Growing Regions | `7.1-7.4 What Is Horticulture & Where Do We Grow It?` | horticulture definition/products; intensive-system explanation; region-description match; labelled/shaded map; factor explanations; region-product suitability justification | AGT5-APG-01, AGT5-PRA-01, AGT5-ENV-01 |
+| 8. Paddock to Plate - Technology, Nutrition and Choice | `8.1-8.4 From Paddock to Plate` | potato supply-chain responses; technology benefits; RIPPA job match and impact explanation; plant-part table; nutrients/serves/seasonality/colour/freshness responses | AGT5-IVT-01, AGT5-USE-01, AGT5-PRA-01 |
+| 9. Australian Pork Industry and Breeds | `9.1-9.4 Introduction to Pork and the Australian Pork Industry` | pork/value-added products; verified industry facts; fresh/processed origin comparison; product-label investigation; breed characteristics; crossbreeding/hybrid-vigour explanation | AGT5-APG-01, AGT5-PRA-01, AGT5-COM-01 |
+| 10. Pig Farming Systems and Feeding | `10.1-10.4 Pig Farming Systems and Feeding` | system identification; features and welfare explanations; four-system research table; justified farmer choice; feeding/growth/welfare responses | AGT5-APG-01, AGT5-PRA-01, AGT5-ENV-01 |
+| 11. Australian Poultry Industry - Farm to Plate | `11.1-11.4 The Australian Poultry Industry` | poultry/broiler/layer definitions; location factors; cage/barn/free-range comparison; welfare judgement using at least three taught facts; trade-off table; optional practical evidence only where the teacher supplies/approves it | AGT5-APG-01, AGT5-PRA-01, AGT5-ENV-01; AGT5-SAF-01 only where separately evidenced through teacher-confirmed production and safe-work evidence |
 
 ## Evidence completion rules
 
@@ -92,7 +92,7 @@ Never infer a missing scale, distance, stocking capacity, shed layout, safety zo
 
 | Field | Controlled value |
 |---|---|
-| Course/year | Year 8 Technology - Food and agricultural practices; school wording **Teacher to confirm** |
+| Course/year | Year 8 / Stage 4 introductory Agriculture Technology elective unit; additional study is required to complete 100 hours |
 | Task number | **Teacher to confirm** |
 | Formal task name | **Teacher to confirm** |
 | Task status | **Teacher to confirm**; until then use `course evidence folio` |

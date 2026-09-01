@@ -37,10 +37,12 @@ for (const file of walk(repo).filter((file) => textExtensions.has(path.extname(f
 }
 
 const requiredFiles = [
-  "index.html", "module.html", "folio.html",
+  "index.html", "module.html", "folio.html", "teacher-resources.html",
   "guided/data.js", "guided/course.js", "guided/course.css",
   "assets/agriculture-hero.png",
-  "source-notes/SOURCE-MAP.md", "source-notes/DRIVE-SOURCE-INVENTORY.csv",
+  "source-notes/SOURCE-MAP.md", "source-notes/source-map-v3.0.json", "source-notes/build-scope-v3.0.md",
+  "source-notes/family-benchmark-contract.json", "source-notes/core-artefact-manifest-v3.0.json",
+  "source-notes/DRIVE-SOURCE-INVENTORY.csv",
   "source-notes/EVIDENCE-CONTRACT.json", "source-notes/EVIDENCE-SOURCE-STATUS.md",
   "source-notes/EVIDENCE-INPUT-PACK.md", "source-notes/FOLIO-INPUT-PACK.md",
   "source-notes/QUESTION-BANK.json", "source-notes/VISUAL-MANIFEST.json",
@@ -51,7 +53,7 @@ const requiredFiles = [
 ];
 requiredFiles.forEach((file) => must(fs.existsSync(path.join(repo, file)), `Missing ${file}`));
 
-const sourceMap = read("source-notes/SOURCE-MAP.md");
+const legacySourceAudit = read("source-notes/SOURCE-MAP.md");
 [
   "1jCfJPg6pE-r3lrmhyKSHBZGUzHz95fbP", "1Xs_4kwIpp1b-tNongrs2STuOo_GNnMkm",
   "15UNTx2i4r5e66rjd7G_iGd8wZC5Y08zO", "15cA9I42NUGGU_Gy7qwWa2YVsQ-huYAvm",
@@ -60,10 +62,15 @@ const sourceMap = read("source-notes/SOURCE-MAP.md");
   "1Xz_6t3IJf69jUDi-FpfxqpB2qAJd4a04", "1J13TPCCt3Qpyj0ZF2rphYU1-08g4lNii",
   "1SLFs7rh_AUInJPYFNfCKer_R1g1n5_My", "1a8flVlZOpK7GJ3RHbOpS16rZIiEO4ry0",
   "15gcs28RgHFpczMgq8iN-46ShdJ4Ni3Zv", "18hxyX7_fBgGW4A2PpE56Q59gZCJKwYvM3Va0bOXj5hk"
-].forEach((id) => must(sourceMap.includes(id), `Authorised source ${id} is missing from SOURCE-MAP.md.`));
-must(sourceMap.includes("Technology 7–8 Syllabus (2023)") && sourceMap.includes("implemented from 2026"), "Current NESA syllabus authority is missing.");
-must(/essentially blank|title slide/i.test(sourceMap), "Module 4 blank-title-slide limitation is missing.");
-must(/Guernsey[\s\S]{0,200}Brown Swiss[\s\S]{0,200}Ayrshire/i.test(sourceMap), "Module 5 disputed dairy-image key is missing.");
+].forEach((id) => must(legacySourceAudit.includes(id), `Authorised source ${id} is missing from the detailed Drive audit.`));
+must(/essentially blank|title slide/i.test(legacySourceAudit), "Module 4 blank-title-slide limitation is missing.");
+must(/Guernsey[\s\S]{0,200}Brown Swiss[\s\S]{0,200}Ayrshire/i.test(legacySourceAudit), "Module 5 disputed dairy-image key is missing.");
+const sourceMap = JSON.parse(read("source-notes/source-map-v3.0.json"));
+must(sourceMap.source_map_id === "year-8-agriculture-elective-source-map-v3.0", "Current source-map identity is wrong.");
+must(sourceMap.syllabus?.family_key === "agriculture-technology-7-10-2024", "Current Agriculture Technology syllabus decision is missing.");
+must(sourceMap.syllabus?.outcome_code_family === "AGT5 adjusted for Year 8 under AGT4-ADJ-01", "Stage 4 adjustment and AGT5 outcome family are missing.");
+must(sourceMap.course?.duration?.weeks === 20 && sourceMap.course?.duration?.periods === 50 && sourceMap.course?.duration?.periods_per_fortnight === 5, "Year 8 elective duration must be 20 weeks, 50 periods and 5 periods per fortnight.");
+must(sourceMap.sources?.find((source) => source.id === "S02")?.current_folder_file_count === 45, "Verified Drive inventory must retain 45 current lesson files.");
 
 const sandbox = { window: {} };
 vm.runInNewContext(read("guided/data.js"), sandbox);
@@ -72,7 +79,7 @@ must(course && Array.isArray(course.modules), "Course data did not load.");
 must(course.draft !== true, "Course data is still the draft stub.");
 must(course.modules.length === 11, "Course must contain exactly 11 teacher-adjustable module containers.");
 must(course.modules.every((module, index) => module.projectModule === index + 1), "Module order must preserve Drive packages 1-11.");
-must(course.modules.every((module) => module.cadence === "Teacher-adjustable two-week container"), "Every module must label the two-week cadence as teacher-adjustable.");
+must(course.modules.every((module, index) => module.cadence === `Sequence ${index + 1} of 11 · teacher-adjustable within 20 weeks`), "Every module must use its source-order sequence label without inventing equal timing.");
 must(course.modules.every((module) => module.sections.length === 3), "Every module must contain exactly three named theory sections.");
 must(course.modules.flatMap((module) => module.sections).length === 33, "Course must contain exactly 33 named theory sections.");
 must(course.modules.every((module) => module.checks.length === 30), "Every module must contain exactly 30 knowledge checks.");
@@ -87,7 +94,7 @@ must(course.modules.every((module) => module.sections.every((_, theoryIndex) => 
   return new Set(questions).size === 10;
 })), "Each named section must contain 10 distinct question texts.");
 
-const quizBan = /\b(?:TE4-[A-Z]+-01|outcome codes?|syllabus outcomes?|module|lesson plan|teacher|assessment (?:task|metadata|date|weighting)|task number|weighting|due date|total marks?|file names?|filename|folders?|Google Drive|source IDs?|programme labels?|website labels?)\b/i;
+const quizBan = /\b(?:(?:TE4|AGT[45])-[A-Z]+-01|outcome codes?|syllabus outcomes?|module|lesson plan|teacher|assessment (?:task|metadata|date|weighting)|task number|weighting|due date|total marks?|file names?|filename|folders?|Google Drive|source IDs?|programme labels?|website labels?)\b/i;
 const imageIdentityBan = /(?:\b(?:which|what)\b.{0,80}\b(?:pictured|shown in (?:the|this) image)\b|\bidentify\b.{0,60}\b(?:image|photo))/i;
 allChecks.forEach((check) => {
   const testedText = [check.question, ...check.options].join(" ");
@@ -130,7 +137,7 @@ must((folio.match(/class="folio-visual"/g) || []).length === 12, "Every folio ca
 for (let index = 1; index <= 12; index += 1) must(folio.includes(`id="folio-card-${String(index).padStart(2, "0")}"`), `Missing folio card ${index}.`);
 must(/Build a Beef Farm[\s\S]{0,300}(?:title slide|not a design brief)/i.test(folio), "Folio must expose the Module 4 source limitation.");
 must(/(?:No current dimensioned[\s\S]{0,400}Teacher to confirm|Teacher to confirm[\s\S]{0,400}No current dimensioned)/i.test(folio), "Folio must gate missing plan and practical evidence.");
-must(!/data-outcomes="[^"]*(?:TE4-DES-01|TE4-PPM-01|TE4-SAF-01)[^"]*"/.test(folio.replace(/data-outcomes="[^"]*only after separately confirmed[^"]*"/, "")), "Folio must not claim unsupported design, management or safe-practical evidence as complete.");
+must(!/data-outcomes="[^"]*AGT5-SAF-01[^"]*"/.test(folio.replace(/data-outcomes="[^"]*only after separately confirmed[^"]*"/, "")), "Folio must not claim unsupported safe-practical evidence as complete.");
 
 const courseScript = read("guided/course.js");
 must(courseScript.includes("Print / Save PDF"), "Modules must include Print / Save PDF.");
@@ -160,19 +167,25 @@ displayedVisuals.forEach((record) => {
   must(record.caption?.trim(), `Visual ${assetPath} is missing a caption.`);
 });
 
-for (const file of ["index.html", "module.html", "folio.html"]) {
+for (const file of ["index.html", "module.html", "folio.html", "teacher-resources.html"]) {
   const html = read(file);
   must((html.match(/<h1\b/g) || []).length === 1, `${file} must contain exactly one H1.`);
   for (const match of html.matchAll(/(?:href|src)="([^"#?]+)(?:\?[^"#]*)?"/g)) {
     const target = match[1];
     if (/^(?:https?:|mailto:|data:)/.test(target)) continue;
+    if (file === "teacher-resources.html" && /^resources\/teacher\/Agriculture-50-Period-Teaching-Program-v3\.0-2027-Elective\.(?:pdf|docx)$/.test(target)) continue;
     must(fs.existsSync(path.resolve(repo, path.dirname(file), target)), `${file} links to missing ${target}.`);
   }
 }
 
 const studentSurface = [read("index.html"), read("module.html"), folio, read("guided/data.js")].join("\n");
-must(!/\b(?:TE4-MSC-01|TE4-DIG-0[12])\b/.test(studentSurface), "Student surface claims an outcome not directly aligned by the current source contract.");
+must(!/\bTE4-[A-Z]+-\d{2}\b/.test(studentSurface), "Student surface still contains the superseded Technology 7–8 outcome family.");
+must(studentSurface.includes("Agriculture Technology 7–10 Syllabus (2024)") && studentSurface.includes("AGT4-ADJ-01"), "Student surface is missing the current Agriculture Technology syllabus and Stage 4 adjustment.");
 must(!/\b(?:task number|weighting|due date|total marks?)\s*[:=]?\s*\d/i.test(studentSurface), "Student surface contains unsupported formal assessment values.");
-must(!/formal(?:ly)? authorised 22-week|authorised 22-week programme/i.test(studentSurface), "Student surface overstates the inferred 22-week container sequence.");
+must(!/22-week|two-week (?:integration )?container/i.test(studentSurface), "Student surface still contains the superseded equal two-week/22-week structure.");
+const teacherResources = read("teacher-resources.html");
+must(teacherResources.includes("Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.pdf") && teacherResources.includes("Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.docx"), "Teacher Resources is missing the canonical v3.0 program pair.");
+must(!/alignment record/i.test(teacherResources), "Teacher Resources must not expose an alignment-record button.");
+must(read("shared/hub-navigation.js").includes('label: "Teacher resources"'), "Primary course navigation must expose Teacher resources.");
 
 console.log("Course validation passed: 11 modules, 33 theory sections, 330 student-learning checks and 12 folio cards.");

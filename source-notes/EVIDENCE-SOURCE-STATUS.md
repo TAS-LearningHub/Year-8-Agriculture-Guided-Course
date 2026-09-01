@@ -5,7 +5,7 @@
 The TASK 11 integration owner now has a source-grounded input package covering:
 
 1. the 11-module 2026 learning and evidence sequence;
-2. current Technology 7-8 (2023) Stage 4 outcome mapping;
+2. current Agriculture Technology 7–10 (2024) outcome mapping for Year 8;
 3. a controlled plan-reading requirement;
 4. an exact twelve-card student folio flow; and
 5. autosave, image persistence and Print / Save PDF requirements.
@@ -20,7 +20,7 @@ No repository or integration file was edited. Nothing was committed, pushed, dep
 | `Year 8/2026` folder | Controls the 11-stage teaching sequence, lesson intentions and student learning evidence. It contains 11 lesson sets plus a `Build a Beef Farm` activity deck. |
 | `Stage 4 - Year 8 Work Booklet` | Supplementary/reference only. It contains a school agriculture-plot drawing prompt, farm-tool identification and broader agriculture tasks, but no current 2026 lesson dependence was confirmed. It cannot create extra required evidence. |
 | `chook booklet 78 tech.pdf` | Supplementary/reference only. It contains poultry terminology, equipment, feeding, egg production, care, health, pests, disease and production-system material. The scanned source was created in 2014; no current 2026 lesson dependence was confirmed. |
-| [Technology 7-8 Syllabus (2023)](https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes) | Current syllabus mapping authority. Implementation commenced in 2026. |
+| [Agriculture Technology 7–10 Syllabus (2024)](https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course) | Current Agriculture Technology syllabus authority. Implementation is from 2027. |
 | Teacher-issued project brief, current plan/drawing, local animal-care procedures and school risk controls | Sole authority for project specifications, dimensions, scale, practical sequence, animal handling, local safety controls and teacher checkpoints. These were not supplied. |
 
 ## Findings that must remain visible
@@ -34,22 +34,24 @@ No repository or integration file was edited. Nothing was committed, pushed, dep
 
 ## Current syllabus boundary
 
-The Technology 7-8 Syllabus (2023) is implemented from 2026. Its Stage 4 outcomes used in this package are:
+The Agriculture Technology 7–10 Syllabus (2024) is implemented from 2027. Under `AGT4-ADJ-01`, teachers may adjust the Stage 5 outcomes for students in Years 7 and 8. The outcome opportunities used in this package are:
 
 | Code | Authorised wording |
 |---|---|
-| TE4-SDP-01 | explains relationships between sustainability, design and production |
-| TE4-PDP-01 | describes the practices and processes of designers and producers |
-| TE4-PPM-01 | applies processes in the planning, management and production of projects |
-| TE4-DES-01 | communicates and evaluates design ideas and solutions |
-| TE4-SAF-01 | selects and safely uses tools, materials, technologies and processes |
+| AGT5-SAF-01 | applies production processes and safe work practices in agricultural contexts |
+| AGT5-APG-01 | explains factors that influence animal and plant selection, growth and development in agricultural enterprises and systems |
+| AGT5-PRA-01 | explains industry practices in agricultural enterprises and systems |
+| AGT5-ENV-01 | analyses relationships between agricultural production, sustainability and consumers |
+| AGT5-IVT-01 | investigates and assesses the influence of innovation and management practices on agricultural enterprises and systems |
+| AGT5-USE-01 | selects and justifies the use of technologies and processes in agricultural production and systems |
+| AGT5-COM-01 | communicates ideas and concepts in agricultural technology contexts |
 
 The full outcome set is not automatically the assessed set for a formal task. The exact assessed subset remains **Teacher to confirm**.
 
 ## Instructions to TASK 11 integration
 
 - Use exactly 11 website modules in the 2026 lesson order, one-to-one with Drive modules 1-11.
-- Treat each module as a teacher-adjustable two-week integration container anchored by its supplied 50-65 minute lesson. Do not present the resulting 22-week structure as a formally authorised programme.
+- Keep the eleven modules in their supplied order within the confirmed 20-week, 50-period allocation. Do not assign equal module durations without a current teacher program; exact period placement remains teacher-adjustable.
 - Each module must contain exactly three named theory sections and exactly ten student-learning MCQs per section: 33 sections and 330 MCQs overall. Use the exact section titles/content supplied by TASK 11A; this hand-off does not re-author them.
 - Preserve the substantial worksheet evidence: definitions, tables, maps, image research, comparisons, flowcharts, source-linked questions, justified choices and challenge explanations.
 - Use exactly twelve folio cards: one for each 2026 module and one gated course-synthesis/plan/practical card.

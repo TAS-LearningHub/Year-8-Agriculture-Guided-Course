@@ -100,8 +100,22 @@
   .course-family-nav__inner { display: grid; gap: 0.6rem; min-height: 0; padding: 0.7rem 0.8rem 0.55rem; }
   .course-family-nav__brand { font-size: 1rem; }
   .course-family-nav__mark { height: 36px; width: 36px; }
-  .course-family-nav__links { flex-wrap: nowrap; margin-inline: -0.8rem; overflow-x: auto; padding: 0 0.8rem 0.45rem; scrollbar-width: thin; }
-  .course-family-nav__links a { flex: 0 0 auto; font-size: 0.92rem; padding: 0.62rem 0.72rem; }
+  .course-family-nav__links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+    margin: 0;
+    overflow: visible;
+    padding: 0 0 0.25rem;
+  }
+  .course-family-nav__links a {
+    display: flex;
+    min-width: 0;
+    justify-content: center;
+    padding: 0.62rem 0.5rem;
+    text-align: center;
+    white-space: normal;
+  }
 }
 
 @media print {

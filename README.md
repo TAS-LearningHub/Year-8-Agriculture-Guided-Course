@@ -1,8 +1,10 @@
 # Year 8 Agriculture guided course
 
-A Stage 4 guided-learning website governed by the NSW **Technology 7–8 Syllabus (2023)**, implemented from 2026.
+A Year 8, Stage 4 introductory unit contributing to a 100-hour Agriculture Technology elective. It is aligned to the NSW **Agriculture Technology 7–10 Syllabus (2024)**, implemented from 2027.
 
-The authorised Agriculture Drive folder is the primary course authority. Its Year 8/2026 folder supplies 11 numbered lesson packages covering agriculture, food security, beef, dairy, horticulture, pork and poultry. The website presents each supplied lesson as the anchor of a teacher-adjustable two-week integration container; this 22-week scaffold is not a formally authorised programme. Missing practical, animal-care, local safety, project-plan, assessment and submission requirements remain **Teacher to confirm**.
+The local delivery pattern is 20 weeks, 50 × 60-minute periods, 5 periods per fortnight and an average 2.5 hours per week. Additional study is required to complete the 100-hour elective.
+
+The authorised Agriculture Drive folder is the primary unit source. Its Year 8/2026 folder supplies 11 numbered lesson packages covering agriculture, food security, beef, dairy, horticulture, pork and poultry. The modules keep that order but do not claim equal two-week allocations. Exact period placement and all practical, animal-care, local safety, project-plan, assessment and submission requirements remain **Teacher to confirm**.
 
 ## Student routes
 

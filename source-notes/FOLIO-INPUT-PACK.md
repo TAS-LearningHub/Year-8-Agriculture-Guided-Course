@@ -24,7 +24,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 Introduction to Agriculture lesson plan and worksheet.
 
-**Outcome tags:** TE4-PDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-PRA-01, AGT5-COM-01.
 
 ### 2. Agriculture, sustainability and food security
 
@@ -36,7 +36,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 Value of Agriculture & Food Security lesson plan and worksheet.
 
-**Outcome tags:** TE4-SDP-01, TE4-PDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-ENV-01, AGT5-PRA-01, AGT5-COM-01.
 
 ### 3. Beef breeds and adaptation
 
@@ -48,21 +48,21 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 Introduction to Beef Cattle & Breeds lesson plan and worksheet.
 
-**Outcome tags:** TE4-PDP-01, TE4-SDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-APG-01, AGT5-PRA-01.
 
-### 4. Build a beef farm - system decision
+### 4. Beef farming systems and nutrition
 
-**Purpose:** apply taught knowledge to a simple agricultural-system design decision.
+**Purpose:** compare extensive and intensive production and feeding systems using verified lesson evidence.
 
-**Student inputs:** extensive/intensive choice; proposed climate/location category; breed category; feeding method; system diagram or layout sketch; three design reasons; one sustainability trade-off; unresolved item.
+**Student inputs:** extensive/intensive comparison; grass-based/grain-based comparison; at least three supported differences or trade-offs; one unresolved item.
 
-**Completion:** choices are internally consistent and justified with at least three taught facts.
+**Completion:** both comparisons are complete and use at least three taught facts.
 
-**Source:** 2026 Beef Cattle Farming & Nutrition lesson plan/worksheet and `Build a Beef Farm` activity.
+**Source:** 2026 Beef Cattle Farming & Nutrition lesson plan and worksheet. The `Build a Beef Farm` file contains only a title slide and is not an authorised design brief.
 
-**Boundary:** this is a conceptual system design, not an approved property or infrastructure plan.
+**Boundary:** this is a systems comparison, not an approved property or infrastructure plan. Do not infer a layout, stocking rate, facility, dimension or local procedure.
 
-**Outcome tags:** TE4-PPM-01, TE4-DES-01, TE4-SDP-01.
+**Outcome tags:** AGT5-PRA-01, AGT5-ENV-01.
 
 ### 5. Dairy breeds, regions and farm routines
 
@@ -74,7 +74,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 Dairy Breeds & Milk Production lesson plan and worksheet.
 
-**Outcome tags:** TE4-PDP-01, TE4-SDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-APG-01, AGT5-PRA-01.
 
 ### 6. Milk processing and nutrition flow
 
@@ -86,7 +86,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 Dairy Processing & Nutrition lesson plan and worksheet.
 
-**Outcome tags:** TE4-PDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-PRA-01, AGT5-COM-01.
 
 ### 7. Horticulture regions and growing conditions
 
@@ -98,7 +98,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 What Is Horticulture & Where Do We Grow It? lesson plan and worksheet.
 
-**Outcome tags:** TE4-SDP-01, TE4-PDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-APG-01, AGT5-PRA-01, AGT5-ENV-01.
 
 ### 8. Paddock to plate, robotics and healthy choice
 
@@ -110,7 +110,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 From Paddock to Plate - Technology, Nutrition & Choice lesson plan and worksheet.
 
-**Outcome tags:** TE4-PDP-01, TE4-SDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-IVT-01, AGT5-USE-01, AGT5-PRA-01.
 
 ### 9. Australian pork, labels and breeding
 
@@ -124,7 +124,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Boundary:** time-sensitive figures must retain their lesson source/date or be refreshed before use.
 
-**Outcome tags:** TE4-PDP-01, TE4-SDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-APG-01, AGT5-PRA-01, AGT5-COM-01.
 
 ### 10. Pig production systems, feeding and welfare
 
@@ -136,7 +136,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 Pig Farming Systems and Feeding lesson plan and worksheet.
 
-**Outcome tags:** TE4-SDP-01, TE4-PDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-APG-01, AGT5-PRA-01, AGT5-ENV-01.
 
 ### 11. Poultry production systems and trade-offs
 
@@ -148,7 +148,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Source:** 2026 Australian Poultry Industry lesson plan/worksheet. The older poultry booklet is supplementary/reference only unless the teacher confirms a current lesson dependence.
 
-**Outcome tags:** TE4-PDP-01, TE4-SDP-01, TE4-DES-01.
+**Outcome tags:** AGT5-APG-01, AGT5-PRA-01, AGT5-ENV-01.
 
 ### 12. Agriculture plot plan, practical evidence and final evaluation
 
@@ -170,7 +170,7 @@ Status: exact content and field specification for TASK 11 integration. No formal
 
 **Boundary:** no inferred scale, dimensions, quantities, layout, animal capacity, safety zone or procedure.
 
-**Outcome tags:** TE4-PPM-01, TE4-DES-01; TE4-SAF-01 only where separately evidenced through teacher-confirmed practical work.
+**Outcome tags:** AGT5-COM-01; AGT5-SAF-01 only where separately evidenced through teacher-confirmed production and safe-work evidence.
 
 ## Student flow
 

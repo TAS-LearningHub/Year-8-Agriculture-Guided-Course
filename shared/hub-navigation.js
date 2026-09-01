@@ -38,6 +38,7 @@
     { label: "Modules", href: "index.html#pathway", current: path.endsWith("/module.html") },
     { label: "Puzzles", href: "busy-work/", current: path.includes("/busy-work/") },
     { label: "My folio", href: "folio.html", current: path.endsWith("/folio.html") },
+    { label: "Teacher resources", href: "teacher-resources.html", current: path.endsWith("/teacher-resources.html") },
     { label: "Main Menu", href: HUB_URL, external: true }
   ];
 

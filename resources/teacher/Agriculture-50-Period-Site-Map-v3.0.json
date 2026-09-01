@@ -1,0 +1,1506 @@
+{
+  "schema_version": "1.0",
+  "program_id": "year-8-agriculture-elective-program",
+  "version": "v3.0",
+  "candidate_state": "local-only",
+  "site_url": "https://stevencowell.github.io/Year-8-Agriculture-Guided-Course/",
+  "mappings": [
+    {
+      "site_id": "m01-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 1 folio evidence",
+      "module_id": "m01",
+      "period_numbers": [
+        3
+      ]
+    },
+    {
+      "site_id": "m01s01-theory",
+      "route": "module.html?module=1#theory-1-1",
+      "audience": "student",
+      "purpose": "Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "site_id": "m01s01-check",
+      "route": "module.html?module=1#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "site_id": "m01s01-evidence",
+      "route": "module.html?module=1#written-evidence-1-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "site_id": "m01s01-media",
+      "route": "module.html?module=1#theory-1-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m01s02-theory",
+      "route": "module.html?module=1#theory-1-2",
+      "audience": "student",
+      "purpose": "Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02",
+      "period_numbers": [
+        2
+      ]
+    },
+    {
+      "site_id": "m01s02-check",
+      "route": "module.html?module=1#knowledge-checks-1-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02",
+      "period_numbers": [
+        2
+      ]
+    },
+    {
+      "site_id": "m01s02-evidence",
+      "route": "module.html?module=1#written-evidence-1-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02",
+      "period_numbers": [
+        2
+      ]
+    },
+    {
+      "site_id": "m01s02-media",
+      "route": "module.html?module=1#theory-1-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m01s03-theory",
+      "route": "module.html?module=1#theory-1-3",
+      "audience": "student",
+      "purpose": "Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03",
+      "period_numbers": [
+        3
+      ]
+    },
+    {
+      "site_id": "m01s03-check",
+      "route": "module.html?module=1#knowledge-checks-1-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03",
+      "period_numbers": [
+        3
+      ]
+    },
+    {
+      "site_id": "m01s03-evidence",
+      "route": "module.html?module=1#written-evidence-1-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03",
+      "period_numbers": [
+        3
+      ]
+    },
+    {
+      "site_id": "m01s03-media",
+      "route": "module.html?module=1#theory-1-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m02-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 2 folio evidence",
+      "module_id": "m02",
+      "period_numbers": [
+        8
+      ]
+    },
+    {
+      "site_id": "m02s01-theory",
+      "route": "module.html?module=2#theory-2-1",
+      "audience": "student",
+      "purpose": "Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "site_id": "m02s01-check",
+      "route": "module.html?module=2#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "site_id": "m02s01-evidence",
+      "route": "module.html?module=2#written-evidence-2-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "site_id": "m02s01-media",
+      "route": "module.html?module=2#theory-2-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m02s02-theory",
+      "route": "module.html?module=2#theory-2-2",
+      "audience": "student",
+      "purpose": "The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02",
+      "period_numbers": [
+        7
+      ]
+    },
+    {
+      "site_id": "m02s02-check",
+      "route": "module.html?module=2#knowledge-checks-2-2",
+      "audience": "student",
+      "purpose": "Ten-question check for The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02",
+      "period_numbers": [
+        7
+      ]
+    },
+    {
+      "site_id": "m02s02-evidence",
+      "route": "module.html?module=2#written-evidence-2-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02",
+      "period_numbers": [
+        7
+      ]
+    },
+    {
+      "site_id": "m02s02-media",
+      "route": "module.html?module=2#theory-2-2",
+      "audience": "student",
+      "purpose": "Teaching visual for The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m02s03-theory",
+      "route": "module.html?module=2#theory-2-3",
+      "audience": "student",
+      "purpose": "Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03",
+      "period_numbers": [
+        8
+      ]
+    },
+    {
+      "site_id": "m02s03-check",
+      "route": "module.html?module=2#knowledge-checks-2-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03",
+      "period_numbers": [
+        8
+      ]
+    },
+    {
+      "site_id": "m02s03-evidence",
+      "route": "module.html?module=2#written-evidence-2-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03",
+      "period_numbers": [
+        8
+      ]
+    },
+    {
+      "site_id": "m02s03-media",
+      "route": "module.html?module=2#theory-2-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m03-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 3 folio evidence",
+      "module_id": "m03",
+      "period_numbers": [
+        13
+      ]
+    },
+    {
+      "site_id": "m03s01-theory",
+      "route": "module.html?module=3#theory-3-1",
+      "audience": "student",
+      "purpose": "Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01",
+      "period_numbers": [
+        11
+      ]
+    },
+    {
+      "site_id": "m03s01-check",
+      "route": "module.html?module=3#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01",
+      "period_numbers": [
+        11
+      ]
+    },
+    {
+      "site_id": "m03s01-evidence",
+      "route": "module.html?module=3#written-evidence-3-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01",
+      "period_numbers": [
+        11
+      ]
+    },
+    {
+      "site_id": "m03s01-media",
+      "route": "module.html?module=3#theory-3-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m03s02-theory",
+      "route": "module.html?module=3#theory-3-2",
+      "audience": "student",
+      "purpose": "Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02",
+      "period_numbers": [
+        12
+      ]
+    },
+    {
+      "site_id": "m03s02-check",
+      "route": "module.html?module=3#knowledge-checks-3-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02",
+      "period_numbers": [
+        12
+      ]
+    },
+    {
+      "site_id": "m03s02-evidence",
+      "route": "module.html?module=3#written-evidence-3-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02",
+      "period_numbers": [
+        12
+      ]
+    },
+    {
+      "site_id": "m03s02-media",
+      "route": "module.html?module=3#theory-3-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m03s03-theory",
+      "route": "module.html?module=3#theory-3-3",
+      "audience": "student",
+      "purpose": "Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03",
+      "period_numbers": [
+        13
+      ]
+    },
+    {
+      "site_id": "m03s03-check",
+      "route": "module.html?module=3#knowledge-checks-3-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03",
+      "period_numbers": [
+        13
+      ]
+    },
+    {
+      "site_id": "m03s03-evidence",
+      "route": "module.html?module=3#written-evidence-3-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03",
+      "period_numbers": [
+        13
+      ]
+    },
+    {
+      "site_id": "m03s03-media",
+      "route": "module.html?module=3#theory-3-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m04-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 4 folio evidence",
+      "module_id": "m04",
+      "period_numbers": [
+        18
+      ]
+    },
+    {
+      "site_id": "m04s01-theory",
+      "route": "module.html?module=4#theory-4-1",
+      "audience": "student",
+      "purpose": "Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01",
+      "period_numbers": [
+        16
+      ]
+    },
+    {
+      "site_id": "m04s01-check",
+      "route": "module.html?module=4#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01",
+      "period_numbers": [
+        16
+      ]
+    },
+    {
+      "site_id": "m04s01-evidence",
+      "route": "module.html?module=4#written-evidence-4-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01",
+      "period_numbers": [
+        16
+      ]
+    },
+    {
+      "site_id": "m04s01-media",
+      "route": "module.html?module=4#theory-4-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m04s02-theory",
+      "route": "module.html?module=4#theory-4-2",
+      "audience": "student",
+      "purpose": "Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02",
+      "period_numbers": [
+        17
+      ]
+    },
+    {
+      "site_id": "m04s02-check",
+      "route": "module.html?module=4#knowledge-checks-4-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02",
+      "period_numbers": [
+        17
+      ]
+    },
+    {
+      "site_id": "m04s02-evidence",
+      "route": "module.html?module=4#written-evidence-4-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02",
+      "period_numbers": [
+        17
+      ]
+    },
+    {
+      "site_id": "m04s02-media",
+      "route": "module.html?module=4#theory-4-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m04s03-theory",
+      "route": "module.html?module=4#theory-4-3",
+      "audience": "student",
+      "purpose": "Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03",
+      "period_numbers": [
+        18
+      ]
+    },
+    {
+      "site_id": "m04s03-check",
+      "route": "module.html?module=4#knowledge-checks-4-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03",
+      "period_numbers": [
+        18
+      ]
+    },
+    {
+      "site_id": "m04s03-evidence",
+      "route": "module.html?module=4#written-evidence-4-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03",
+      "period_numbers": [
+        18
+      ]
+    },
+    {
+      "site_id": "m04s03-media",
+      "route": "module.html?module=4#theory-4-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m05-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 5 folio evidence",
+      "module_id": "m05",
+      "period_numbers": [
+        23
+      ]
+    },
+    {
+      "site_id": "m05s01-theory",
+      "route": "module.html?module=5#theory-5-1",
+      "audience": "student",
+      "purpose": "Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01",
+      "period_numbers": [
+        21
+      ]
+    },
+    {
+      "site_id": "m05s01-check",
+      "route": "module.html?module=5#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01",
+      "period_numbers": [
+        21
+      ]
+    },
+    {
+      "site_id": "m05s01-evidence",
+      "route": "module.html?module=5#written-evidence-5-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01",
+      "period_numbers": [
+        21
+      ]
+    },
+    {
+      "site_id": "m05s01-media",
+      "route": "module.html?module=5#theory-5-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m05s02-theory",
+      "route": "module.html?module=5#theory-5-2",
+      "audience": "student",
+      "purpose": "Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02",
+      "period_numbers": [
+        22
+      ]
+    },
+    {
+      "site_id": "m05s02-check",
+      "route": "module.html?module=5#knowledge-checks-5-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02",
+      "period_numbers": [
+        22
+      ]
+    },
+    {
+      "site_id": "m05s02-evidence",
+      "route": "module.html?module=5#written-evidence-5-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02",
+      "period_numbers": [
+        22
+      ]
+    },
+    {
+      "site_id": "m05s02-media",
+      "route": "module.html?module=5#theory-5-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m05s03-theory",
+      "route": "module.html?module=5#theory-5-3",
+      "audience": "student",
+      "purpose": "From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03",
+      "period_numbers": [
+        23
+      ]
+    },
+    {
+      "site_id": "m05s03-check",
+      "route": "module.html?module=5#knowledge-checks-5-3",
+      "audience": "student",
+      "purpose": "Ten-question check for From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03",
+      "period_numbers": [
+        23
+      ]
+    },
+    {
+      "site_id": "m05s03-evidence",
+      "route": "module.html?module=5#written-evidence-5-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03",
+      "period_numbers": [
+        23
+      ]
+    },
+    {
+      "site_id": "m05s03-media",
+      "route": "module.html?module=5#theory-5-3",
+      "audience": "student",
+      "purpose": "Teaching visual for From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m06-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 6 folio evidence",
+      "module_id": "m06",
+      "period_numbers": [
+        28
+      ]
+    },
+    {
+      "site_id": "m06s01-theory",
+      "route": "module.html?module=6#theory-6-1",
+      "audience": "student",
+      "purpose": "Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01",
+      "period_numbers": [
+        26
+      ]
+    },
+    {
+      "site_id": "m06s01-check",
+      "route": "module.html?module=6#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01",
+      "period_numbers": [
+        26
+      ]
+    },
+    {
+      "site_id": "m06s01-evidence",
+      "route": "module.html?module=6#written-evidence-6-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01",
+      "period_numbers": [
+        26
+      ]
+    },
+    {
+      "site_id": "m06s01-media",
+      "route": "module.html?module=6#theory-6-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m06s02-theory",
+      "route": "module.html?module=6#theory-6-2",
+      "audience": "student",
+      "purpose": "Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02",
+      "period_numbers": [
+        27
+      ]
+    },
+    {
+      "site_id": "m06s02-check",
+      "route": "module.html?module=6#knowledge-checks-6-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02",
+      "period_numbers": [
+        27
+      ]
+    },
+    {
+      "site_id": "m06s02-evidence",
+      "route": "module.html?module=6#written-evidence-6-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02",
+      "period_numbers": [
+        27
+      ]
+    },
+    {
+      "site_id": "m06s02-media",
+      "route": "module.html?module=6#theory-6-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m06s03-theory",
+      "route": "module.html?module=6#theory-6-3",
+      "audience": "student",
+      "purpose": "Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03",
+      "period_numbers": [
+        28
+      ]
+    },
+    {
+      "site_id": "m06s03-check",
+      "route": "module.html?module=6#knowledge-checks-6-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03",
+      "period_numbers": [
+        28
+      ]
+    },
+    {
+      "site_id": "m06s03-evidence",
+      "route": "module.html?module=6#written-evidence-6-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03",
+      "period_numbers": [
+        28
+      ]
+    },
+    {
+      "site_id": "m06s03-media",
+      "route": "module.html?module=6#theory-6-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m07-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 7 folio evidence",
+      "module_id": "m07",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "site_id": "m07s01-theory",
+      "route": "module.html?module=7#theory-7-1",
+      "audience": "student",
+      "purpose": "What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01",
+      "period_numbers": [
+        31
+      ]
+    },
+    {
+      "site_id": "m07s01-check",
+      "route": "module.html?module=7#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01",
+      "period_numbers": [
+        31
+      ]
+    },
+    {
+      "site_id": "m07s01-evidence",
+      "route": "module.html?module=7#written-evidence-7-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01",
+      "period_numbers": [
+        31
+      ]
+    },
+    {
+      "site_id": "m07s01-media",
+      "route": "module.html?module=7#theory-7-1",
+      "audience": "student",
+      "purpose": "Teaching visual for What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m07s02-theory",
+      "route": "module.html?module=7#theory-7-2",
+      "audience": "student",
+      "purpose": "Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02",
+      "period_numbers": [
+        32
+      ]
+    },
+    {
+      "site_id": "m07s02-check",
+      "route": "module.html?module=7#knowledge-checks-7-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02",
+      "period_numbers": [
+        32
+      ]
+    },
+    {
+      "site_id": "m07s02-evidence",
+      "route": "module.html?module=7#written-evidence-7-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02",
+      "period_numbers": [
+        32
+      ]
+    },
+    {
+      "site_id": "m07s02-media",
+      "route": "module.html?module=7#theory-7-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m07s03-theory",
+      "route": "module.html?module=7#theory-7-3",
+      "audience": "student",
+      "purpose": "Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "site_id": "m07s03-check",
+      "route": "module.html?module=7#knowledge-checks-7-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "site_id": "m07s03-evidence",
+      "route": "module.html?module=7#written-evidence-7-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "site_id": "m07s03-media",
+      "route": "module.html?module=7#theory-7-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m08-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 8 folio evidence",
+      "module_id": "m08",
+      "period_numbers": [
+        37
+      ]
+    },
+    {
+      "site_id": "m08s01-theory",
+      "route": "module.html?module=8#theory-8-1",
+      "audience": "student",
+      "purpose": "Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01",
+      "period_numbers": [
+        35
+      ]
+    },
+    {
+      "site_id": "m08s01-check",
+      "route": "module.html?module=8#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01",
+      "period_numbers": [
+        35
+      ]
+    },
+    {
+      "site_id": "m08s01-evidence",
+      "route": "module.html?module=8#written-evidence-8-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01",
+      "period_numbers": [
+        35
+      ]
+    },
+    {
+      "site_id": "m08s01-media",
+      "route": "module.html?module=8#theory-8-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m08s02-theory",
+      "route": "module.html?module=8#theory-8-2",
+      "audience": "student",
+      "purpose": "Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02",
+      "period_numbers": [
+        36
+      ]
+    },
+    {
+      "site_id": "m08s02-check",
+      "route": "module.html?module=8#knowledge-checks-8-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02",
+      "period_numbers": [
+        36
+      ]
+    },
+    {
+      "site_id": "m08s02-evidence",
+      "route": "module.html?module=8#written-evidence-8-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02",
+      "period_numbers": [
+        36
+      ]
+    },
+    {
+      "site_id": "m08s02-media",
+      "route": "module.html?module=8#theory-8-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m08s03-theory",
+      "route": "module.html?module=8#theory-8-3",
+      "audience": "student",
+      "purpose": "Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03",
+      "period_numbers": [
+        37
+      ]
+    },
+    {
+      "site_id": "m08s03-check",
+      "route": "module.html?module=8#knowledge-checks-8-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03",
+      "period_numbers": [
+        37
+      ]
+    },
+    {
+      "site_id": "m08s03-evidence",
+      "route": "module.html?module=8#written-evidence-8-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03",
+      "period_numbers": [
+        37
+      ]
+    },
+    {
+      "site_id": "m08s03-media",
+      "route": "module.html?module=8#theory-8-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m09-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 9 folio evidence",
+      "module_id": "m09",
+      "period_numbers": [
+        41
+      ]
+    },
+    {
+      "site_id": "m09s01-theory",
+      "route": "module.html?module=9#theory-9-1",
+      "audience": "student",
+      "purpose": "Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01",
+      "period_numbers": [
+        39
+      ]
+    },
+    {
+      "site_id": "m09s01-check",
+      "route": "module.html?module=9#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01",
+      "period_numbers": [
+        39
+      ]
+    },
+    {
+      "site_id": "m09s01-evidence",
+      "route": "module.html?module=9#written-evidence-9-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01",
+      "period_numbers": [
+        39
+      ]
+    },
+    {
+      "site_id": "m09s01-media",
+      "route": "module.html?module=9#theory-9-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m09s02-theory",
+      "route": "module.html?module=9#theory-9-2",
+      "audience": "student",
+      "purpose": "Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02",
+      "period_numbers": [
+        40
+      ]
+    },
+    {
+      "site_id": "m09s02-check",
+      "route": "module.html?module=9#knowledge-checks-9-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02",
+      "period_numbers": [
+        40
+      ]
+    },
+    {
+      "site_id": "m09s02-evidence",
+      "route": "module.html?module=9#written-evidence-9-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02",
+      "period_numbers": [
+        40
+      ]
+    },
+    {
+      "site_id": "m09s02-media",
+      "route": "module.html?module=9#theory-9-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m09s03-theory",
+      "route": "module.html?module=9#theory-9-3",
+      "audience": "student",
+      "purpose": "Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03",
+      "period_numbers": [
+        41
+      ]
+    },
+    {
+      "site_id": "m09s03-check",
+      "route": "module.html?module=9#knowledge-checks-9-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03",
+      "period_numbers": [
+        41
+      ]
+    },
+    {
+      "site_id": "m09s03-evidence",
+      "route": "module.html?module=9#written-evidence-9-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03",
+      "period_numbers": [
+        41
+      ]
+    },
+    {
+      "site_id": "m09s03-media",
+      "route": "module.html?module=9#theory-9-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m10-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 10 folio evidence",
+      "module_id": "m10",
+      "period_numbers": [
+        45
+      ]
+    },
+    {
+      "site_id": "m10s01-theory",
+      "route": "module.html?module=10#theory-10-1",
+      "audience": "student",
+      "purpose": "Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01",
+      "period_numbers": [
+        43
+      ]
+    },
+    {
+      "site_id": "m10s01-check",
+      "route": "module.html?module=10#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01",
+      "period_numbers": [
+        43
+      ]
+    },
+    {
+      "site_id": "m10s01-evidence",
+      "route": "module.html?module=10#written-evidence-10-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01",
+      "period_numbers": [
+        43
+      ]
+    },
+    {
+      "site_id": "m10s01-media",
+      "route": "module.html?module=10#theory-10-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m10s02-theory",
+      "route": "module.html?module=10#theory-10-2",
+      "audience": "student",
+      "purpose": "Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02",
+      "period_numbers": [
+        44
+      ]
+    },
+    {
+      "site_id": "m10s02-check",
+      "route": "module.html?module=10#knowledge-checks-10-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02",
+      "period_numbers": [
+        44
+      ]
+    },
+    {
+      "site_id": "m10s02-evidence",
+      "route": "module.html?module=10#written-evidence-10-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02",
+      "period_numbers": [
+        44
+      ]
+    },
+    {
+      "site_id": "m10s02-media",
+      "route": "module.html?module=10#theory-10-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m10s03-theory",
+      "route": "module.html?module=10#theory-10-3",
+      "audience": "student",
+      "purpose": "Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03",
+      "period_numbers": [
+        45
+      ]
+    },
+    {
+      "site_id": "m10s03-check",
+      "route": "module.html?module=10#knowledge-checks-10-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03",
+      "period_numbers": [
+        45
+      ]
+    },
+    {
+      "site_id": "m10s03-evidence",
+      "route": "module.html?module=10#written-evidence-10-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03",
+      "period_numbers": [
+        45
+      ]
+    },
+    {
+      "site_id": "m10s03-media",
+      "route": "module.html?module=10#theory-10-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m11-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 11 folio evidence",
+      "module_id": "m11",
+      "period_numbers": [
+        49
+      ]
+    },
+    {
+      "site_id": "m11s01-theory",
+      "route": "module.html?module=11#theory-11-1",
+      "audience": "student",
+      "purpose": "Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01",
+      "period_numbers": [
+        47
+      ]
+    },
+    {
+      "site_id": "m11s01-check",
+      "route": "module.html?module=11#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01",
+      "period_numbers": [
+        47
+      ]
+    },
+    {
+      "site_id": "m11s01-evidence",
+      "route": "module.html?module=11#written-evidence-11-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01",
+      "period_numbers": [
+        47
+      ]
+    },
+    {
+      "site_id": "m11s01-media",
+      "route": "module.html?module=11#theory-11-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m11s02-theory",
+      "route": "module.html?module=11#theory-11-2",
+      "audience": "student",
+      "purpose": "A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02",
+      "period_numbers": [
+        48
+      ]
+    },
+    {
+      "site_id": "m11s02-check",
+      "route": "module.html?module=11#knowledge-checks-11-2",
+      "audience": "student",
+      "purpose": "Ten-question check for A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02",
+      "period_numbers": [
+        48
+      ]
+    },
+    {
+      "site_id": "m11s02-evidence",
+      "route": "module.html?module=11#written-evidence-11-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02",
+      "period_numbers": [
+        48
+      ]
+    },
+    {
+      "site_id": "m11s02-media",
+      "route": "module.html?module=11#theory-11-2",
+      "audience": "student",
+      "purpose": "Teaching visual for A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02",
+      "period_numbers": []
+    },
+    {
+      "site_id": "m11s03-theory",
+      "route": "module.html?module=11#theory-11-3",
+      "audience": "student",
+      "purpose": "Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03",
+      "period_numbers": [
+        49
+      ]
+    },
+    {
+      "site_id": "m11s03-check",
+      "route": "module.html?module=11#knowledge-checks-11-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03",
+      "period_numbers": [
+        49
+      ]
+    },
+    {
+      "site_id": "m11s03-evidence",
+      "route": "module.html?module=11#written-evidence-11-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03",
+      "period_numbers": [
+        49
+      ]
+    },
+    {
+      "site_id": "m11s03-media",
+      "route": "module.html?module=11#theory-11-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03",
+      "period_numbers": []
+    }
+  ],
+  "boundary": "Routes were mapped against the local candidate. A route is not evidence of live deployment."
+}

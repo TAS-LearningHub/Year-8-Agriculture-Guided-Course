@@ -1,0 +1,3852 @@
+{
+  "schema_version": "2.0",
+  "artifact_id": "year-8-agriculture-elective-program-manifest",
+  "version": "v3.0",
+  "build_id": "year-8-agriculture-elective-program-local-20260901",
+  "course": "Year 8 Agriculture - introductory unit contributing to a 100-hour Agriculture Technology elective",
+  "cohort": "Year 8 | Stage 4",
+  "delivery_year": 2027,
+  "source_contract": {
+    "artifact_id": "year-8-agriculture-elective-source-map-v3.0",
+    "version": "v3.0",
+    "sha256": "b7389155d47a54634df9f8db06345db01946aac470ea288a6dc03f414927337b"
+  },
+  "integration_baseline": {
+    "artifact_id": "year-8-agriculture-elective-program-guided-data",
+    "sha256": "f5a7ae9d707078170f4dfb1a336d24564932a8da10bfcb87ec03b3b4da4afbaf"
+  },
+  "syllabus_basis": {
+    "title": "Agriculture Technology 7–10 Syllabus (2024)",
+    "version": "2024",
+    "outcome_code_family": "AGT5",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+    "verified_date": "2026-09-01",
+    "mandatory_from": 2027,
+    "implementation_status": "Implemented from 2027",
+    "delivery_year": 2027,
+    "stage_adjustment": "Stage 5 outcomes adjusted for Year 8 under AGT4-ADJ-01; the adjustment advice is not an outcome code."
+  },
+  "authority_state": "Authorised curriculum and course-source boundaries verified; local practical and assessment details remain Teacher to confirm.",
+  "release_state": "Local candidate only; not committed, pushed or deployed.",
+  "document_format": {
+    "page_size": "A4 landscape",
+    "teaching_periods_per_full_page": 8,
+    "visible_page_numbers": true,
+    "canonical_target": "8-10 numbered periods per full teaching page",
+    "page_count_reason": "Eight periods per full teaching page retain the exact six-column teaching, syllabus and evidence record at 9.5 pt without row splits or clipping; this produces eight total pages rather than the near-six-page ideal."
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Steve's Agriculture course realignment direction",
+      "authority": "local-program",
+      "location": "Current Codex task",
+      "revision": "received 2026-09-01",
+      "use": "course identity, Year 8 elective status and network timetable pattern"
+    },
+    {
+      "id": "S02",
+      "title": "Authorised Year 8 Agriculture 2026 Drive sequence",
+      "authority": "teacher-technical",
+      "location": "Private Drive folder ID 1Xs_4kwIpp1b-tNongrs2STuOo_GNnMkm",
+      "revision": "45-file inventory verified 2026-09-01",
+      "use": "11 supplied lesson packages and their order; no supplied 22-week program"
+    },
+    {
+      "id": "S03",
+      "title": "Agriculture Technology 7–10 Syllabus (2024) – course overview",
+      "authority": "official-syllabus",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+      "revision": "verified 2026-09-01",
+      "use": "course identity, 2027 implementation and 100-hour requirements"
+    },
+    {
+      "id": "S04",
+      "title": "Agriculture Technology 7–10 Syllabus (2024) – outcomes",
+      "authority": "official-syllabus",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/outcomes",
+      "revision": "verified 2026-09-01",
+      "use": "exact outcome wording and Stage 4 adjustment"
+    },
+    {
+      "id": "S05",
+      "title": "Plant production content",
+      "authority": "official-syllabus",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa1b886033",
+      "revision": "verified 2026-09-01",
+      "use": "selected plant-production content points"
+    },
+    {
+      "id": "S06",
+      "title": "Animal production content",
+      "authority": "official-syllabus",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa84e43857",
+      "revision": "verified 2026-09-01",
+      "use": "selected animal-production content points"
+    },
+    {
+      "id": "S07",
+      "title": "Agriculture systems and practice content",
+      "authority": "official-syllabus",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa51218d9b",
+      "revision": "verified 2026-09-01",
+      "use": "selected systems, management, food-security and industry content points"
+    },
+    {
+      "id": "S08",
+      "title": "Year 8 Agriculture guided course",
+      "authority": "website",
+      "location": "candidate root",
+      "revision": "local baseline 756f62dd8bd8",
+      "use": "11-module learning sequence, checks and evidence routes"
+    },
+    {
+      "id": "S09",
+      "title": "The Riv Burger network benchmark",
+      "authority": "quality-reference",
+      "location": "https://stevencowell.github.io/Year-8-The-Riv-Burger/",
+      "revision": "verified 2026-09-01",
+      "use": "rendered structure and Year 8 elective pattern only"
+    }
+  ],
+  "outcomes": [
+    {
+      "code": "AGT5-SAF-01",
+      "statement": "applies production processes and safe work practices in agricultural contexts",
+      "source_id": "S04",
+      "module_ids": [
+        "m04",
+        "m06",
+        "m10",
+        "m11"
+      ]
+    },
+    {
+      "code": "AGT5-APG-01",
+      "statement": "explains factors that influence animal and plant selection, growth and development in agricultural enterprises and systems",
+      "source_id": "S04",
+      "module_ids": [
+        "m03",
+        "m04",
+        "m05",
+        "m07",
+        "m09",
+        "m10",
+        "m11"
+      ]
+    },
+    {
+      "code": "AGT5-PRA-01",
+      "statement": "explains industry practices in agricultural enterprises and systems",
+      "source_id": "S04",
+      "module_ids": [
+        "m01",
+        "m02",
+        "m03",
+        "m04",
+        "m05",
+        "m06",
+        "m07",
+        "m08",
+        "m09",
+        "m10",
+        "m11"
+      ]
+    },
+    {
+      "code": "AGT5-ENV-01",
+      "statement": "analyses relationships between agricultural production, sustainability and consumers",
+      "source_id": "S04",
+      "module_ids": [
+        "m01",
+        "m02",
+        "m04",
+        "m06",
+        "m07",
+        "m08",
+        "m10",
+        "m11"
+      ]
+    },
+    {
+      "code": "AGT5-IVT-01",
+      "statement": "investigates and assesses the influence of innovation and management practices on agricultural enterprises and systems",
+      "source_id": "S04",
+      "module_ids": [
+        "m02",
+        "m08"
+      ]
+    },
+    {
+      "code": "AGT5-USE-01",
+      "statement": "selects and justifies the use of technologies and processes in agricultural production and systems",
+      "source_id": "S04",
+      "module_ids": [
+        "m03",
+        "m04",
+        "m05",
+        "m06",
+        "m07",
+        "m08",
+        "m10",
+        "m11"
+      ]
+    },
+    {
+      "code": "AGT5-COM-01",
+      "statement": "communicates ideas and concepts in agricultural technology contexts",
+      "source_id": "S04",
+      "module_ids": [
+        "m01",
+        "m02",
+        "m03",
+        "m05",
+        "m08",
+        "m09",
+        "m11"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "m01",
+      "title": "Introduction to Agriculture",
+      "timing": "Periods 1-5 | Fortnight 1",
+      "outcome_codes": [
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-COM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m01s01",
+          "title": "Agriculture and everyday life",
+          "content_descriptors": [
+            "S07 — Explain how Australian agricultural systems changed from early European to current practices",
+            "S07 — Investigate Australian agricultural production and industry trends"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Agriculture and everyday life.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m01s01-theory",
+            "knowledge_check": "m01s01-check",
+            "evidence": "m01s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m01s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m01s02",
+          "title": "Agricultural industry sectors",
+          "content_descriptors": [
+            "S07 — Explain how Australian agricultural systems changed from early European to current practices",
+            "S07 — Investigate Australian agricultural production and industry trends"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Agricultural industry sectors.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m01s02-theory",
+            "knowledge_check": "m01s02-check",
+            "evidence": "m01s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m01s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m01s03",
+          "title": "Change in Australian agriculture",
+          "content_descriptors": [
+            "S07 — Explain how Australian agricultural systems changed from early European to current practices",
+            "S07 — Investigate Australian agricultural production and industry trends"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Change in Australian agriculture.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m01s03-theory",
+            "knowledge_check": "m01s03-check",
+            "evidence": "m01s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m01s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m02",
+      "title": "The Value of Agriculture and Food Security",
+      "timing": "Periods 6-10 | Fortnight 2",
+      "outcome_codes": [
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-IVT-01",
+        "AGT5-COM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m02s01",
+          "title": "Agriculture and connected markets",
+          "content_descriptors": [
+            "S07 — Investigate environmental, social and political influences on food security",
+            "S07 — Compare short- and long-term sustainability effects of production systems"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Agriculture and connected markets.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m02s01-theory",
+            "knowledge_check": "m02s01-check",
+            "evidence": "m02s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m02s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m02s02",
+          "title": "The four dimensions of food security",
+          "content_descriptors": [
+            "S07 — Investigate environmental, social and political influences on food security",
+            "S07 — Compare short- and long-term sustainability effects of production systems"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in The four dimensions of food security.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m02s02-theory",
+            "knowledge_check": "m02s02-check",
+            "evidence": "m02s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m02s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m02s03",
+          "title": "Threats and resilient responses",
+          "content_descriptors": [
+            "S07 — Investigate environmental, social and political influences on food security",
+            "S07 — Compare short- and long-term sustainability effects of production systems"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Threats and resilient responses.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m02s03-theory",
+            "knowledge_check": "m02s03-check",
+            "evidence": "m02s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m02s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m03",
+      "title": "Introduction to Beef Cattle and Breeds",
+      "timing": "Periods 11-15 | Fortnight 3",
+      "outcome_codes": [
+        "AGT5-APG-01",
+        "AGT5-PRA-01",
+        "AGT5-USE-01",
+        "AGT5-COM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m03s01",
+          "title": "Cattle groups and adaptation clues",
+          "content_descriptors": [
+            "S06 — Explain breed suitability for animal enterprises, climates and markets",
+            "S06 — Identify animal-breeding programs, techniques and technologies"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Cattle groups and adaptation clues.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m03s01-theory",
+            "knowledge_check": "m03s01-check",
+            "evidence": "m03s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m03s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m03s02",
+          "title": "Selective breeding and evidence",
+          "content_descriptors": [
+            "S06 — Explain breed suitability for animal enterprises, climates and markets",
+            "S06 — Identify animal-breeding programs, techniques and technologies"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Selective breeding and evidence.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m03s02-theory",
+            "knowledge_check": "m03s02-check",
+            "evidence": "m03s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m03s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m03s03",
+          "title": "Matching cattle to a production environment",
+          "content_descriptors": [
+            "S06 — Explain breed suitability for animal enterprises, climates and markets",
+            "S06 — Identify animal-breeding programs, techniques and technologies"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Matching cattle to a production environment.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m03s03-theory",
+            "knowledge_check": "m03s03-check",
+            "evidence": "m03s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m03s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m04",
+      "title": "Beef Cattle Farming and Nutrition",
+      "timing": "Periods 16-20 | Fortnight 4",
+      "outcome_codes": [
+        "AGT5-SAF-01",
+        "AGT5-APG-01",
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-USE-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m04s01",
+          "title": "Extensive and intensive beef systems",
+          "content_descriptors": [
+            "S06 — Explain nutritional requirements across stages of animal production",
+            "S07 — Explain production techniques for selected agricultural systems and enterprises"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Extensive and intensive beef systems.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m04s01-theory",
+            "knowledge_check": "m04s01-check",
+            "evidence": "m04s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m04s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m04s02",
+          "title": "Pasture and feedlot feeding pathways",
+          "content_descriptors": [
+            "S06 — Explain nutritional requirements across stages of animal production",
+            "S07 — Explain production techniques for selected agricultural systems and enterprises"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Pasture and feedlot feeding pathways.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m04s02-theory",
+            "knowledge_check": "m04s02-check",
+            "evidence": "m04s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m04s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m04s03",
+          "title": "Comparing systems with evidence",
+          "content_descriptors": [
+            "S06 — Explain nutritional requirements across stages of animal production",
+            "S07 — Explain production techniques for selected agricultural systems and enterprises"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Comparing systems with evidence.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m04s03-theory",
+            "knowledge_check": "m04s03-check",
+            "evidence": "m04s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m04s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m05",
+      "title": "Dairy Breeds and Milk Production",
+      "timing": "Periods 21-25 | Fortnight 5",
+      "outcome_codes": [
+        "AGT5-APG-01",
+        "AGT5-PRA-01",
+        "AGT5-USE-01",
+        "AGT5-COM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m05s01",
+          "title": "Dairy breeds: traits and evidence",
+          "content_descriptors": [
+            "S06 — Identify resources needed to establish an animal enterprise",
+            "S06 — Explain farm-gate-to-consumer steps for animal products"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Dairy breeds: traits and evidence.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m05s01-theory",
+            "knowledge_check": "m05s01-check",
+            "evidence": "m05s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m05s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m05s02",
+          "title": "Conditions, resources and dairy production",
+          "content_descriptors": [
+            "S06 — Identify resources needed to establish an animal enterprise",
+            "S06 — Explain farm-gate-to-consumer steps for animal products"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Conditions, resources and dairy production.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m05s02-theory",
+            "knowledge_check": "m05s02-check",
+            "evidence": "m05s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m05s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m05s03",
+          "title": "From milk to value-added products",
+          "content_descriptors": [
+            "S06 — Identify resources needed to establish an animal enterprise",
+            "S06 — Explain farm-gate-to-consumer steps for animal products"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in From milk to value-added products.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m05s03-theory",
+            "knowledge_check": "m05s03-check",
+            "evidence": "m05s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m05s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m06",
+      "title": "Dairy Processing and Nutrition",
+      "timing": "Periods 26-30 | Fortnight 6",
+      "outcome_codes": [
+        "AGT5-SAF-01",
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-USE-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m06s01",
+          "title": "Why milk is processed",
+          "content_descriptors": [
+            "S06 — Identify risks and demonstrate safe work practices in animal enterprises",
+            "S06 — Assess animal-product quality against identified market specifications"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Why milk is processed.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m06s01-theory",
+            "knowledge_check": "m06s01-check",
+            "evidence": "m06s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m06s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m06s02",
+          "title": "Food safety controls from farm to fridge",
+          "content_descriptors": [
+            "S06 — Identify risks and demonstrate safe work practices in animal enterprises",
+            "S06 — Assess animal-product quality against identified market specifications"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Food safety controls from farm to fridge.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m06s02-theory",
+            "knowledge_check": "m06s02-check",
+            "evidence": "m06s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m06s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m06s03",
+          "title": "Nutrition information and informed choice",
+          "content_descriptors": [
+            "S06 — Identify risks and demonstrate safe work practices in animal enterprises",
+            "S06 — Assess animal-product quality against identified market specifications"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Nutrition information and informed choice.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m06s03-theory",
+            "knowledge_check": "m06s03-check",
+            "evidence": "m06s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m06s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m07",
+      "title": "Horticulture and Growing Regions",
+      "timing": "Periods 31-34 | Fortnight 7 (periods 1-4 of 5)",
+      "outcome_codes": [
+        "AGT5-APG-01",
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-USE-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m07s01",
+          "title": "What horticulture includes",
+          "content_descriptors": [
+            "S05 — Select plants and explain their suitability to enterprise, climate and market",
+            "S05 — Investigate seasonal plant-product market specifications and availability"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S05",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in What horticulture includes.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m07s01-theory",
+            "knowledge_check": "m07s01-check",
+            "evidence": "m07s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m07s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m07s02",
+          "title": "Why crops suit particular regions",
+          "content_descriptors": [
+            "S05 — Select plants and explain their suitability to enterprise, climate and market",
+            "S05 — Investigate seasonal plant-product market specifications and availability"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S05",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Why crops suit particular regions.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m07s02-theory",
+            "knowledge_check": "m07s02-check",
+            "evidence": "m07s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m07s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m07s03",
+          "title": "Seasonality, markets and production decisions",
+          "content_descriptors": [
+            "S05 — Select plants and explain their suitability to enterprise, climate and market",
+            "S05 — Investigate seasonal plant-product market specifications and availability"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S05",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Seasonality, markets and production decisions.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m07s03-theory",
+            "knowledge_check": "m07s03-check",
+            "evidence": "m07s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m07s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m08",
+      "title": "Paddock to Plate — Technology, Nutrition and Choice",
+      "timing": "Periods 35-38 | Fortnights 7-8 (1 + 3 periods)",
+      "outcome_codes": [
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-IVT-01",
+        "AGT5-USE-01",
+        "AGT5-COM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m08s01",
+          "title": "Tracing a horticultural product from paddock to plate",
+          "content_descriptors": [
+            "S05 — Explain farm-gate-to-consumer steps and emerging plant traceability technologies",
+            "S05 — Justify technologies used to collect and manage plant-production data"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S05",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Tracing a horticultural product from paddock to plate.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m08s01-theory",
+            "knowledge_check": "m08s01-check",
+            "evidence": "m08s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m08s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m08s02",
+          "title": "Sensors, robotics and precision decisions",
+          "content_descriptors": [
+            "S05 — Explain farm-gate-to-consumer steps and emerging plant traceability technologies",
+            "S05 — Justify technologies used to collect and manage plant-production data"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S05",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Sensors, robotics and precision decisions.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m08s02-theory",
+            "knowledge_check": "m08s02-check",
+            "evidence": "m08s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m08s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m08s03",
+          "title": "Plant parts, food labels and balanced choices",
+          "content_descriptors": [
+            "S05 — Explain farm-gate-to-consumer steps and emerging plant traceability technologies",
+            "S05 — Justify technologies used to collect and manage plant-production data"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S05",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Plant parts, food labels and balanced choices.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m08s03-theory",
+            "knowledge_check": "m08s03-check",
+            "evidence": "m08s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m08s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m09",
+      "title": "Australian Pork Industry and Breeds",
+      "timing": "Periods 39-42 | Fortnights 8-9 (2 + 2 periods)",
+      "outcome_codes": [
+        "AGT5-APG-01",
+        "AGT5-PRA-01",
+        "AGT5-COM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m09s01",
+          "title": "Pork products and value adding",
+          "content_descriptors": [
+            "S06 — Identify animal-breeding technologies and explain their effect on production",
+            "S06 — Investigate market specifications for agricultural animal products"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Pork products and value adding.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m09s01-theory",
+            "knowledge_check": "m09s01-check",
+            "evidence": "m09s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m09s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m09s02",
+          "title": "Reading country-of-origin evidence",
+          "content_descriptors": [
+            "S06 — Identify animal-breeding technologies and explain their effect on production",
+            "S06 — Investigate market specifications for agricultural animal products"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Reading country-of-origin evidence.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m09s02-theory",
+            "knowledge_check": "m09s02-check",
+            "evidence": "m09s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m09s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m09s03",
+          "title": "Breed traits, crossbreeding and evidence",
+          "content_descriptors": [
+            "S06 — Identify animal-breeding technologies and explain their effect on production",
+            "S06 — Investigate market specifications for agricultural animal products"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Breed traits, crossbreeding and evidence.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m09s03-theory",
+            "knowledge_check": "m09s03-check",
+            "evidence": "m09s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m09s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m10",
+      "title": "Pig Farming Systems and Feeding",
+      "timing": "Periods 43-46 | Fortnights 9-10 (3 + 1 periods)",
+      "outcome_codes": [
+        "AGT5-SAF-01",
+        "AGT5-APG-01",
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-USE-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m10s01",
+          "title": "Comparing pig housing systems",
+          "content_descriptors": [
+            "S06 — Explain animal nutritional requirements and apply welfare guidelines",
+            "S07 — Explain production techniques for selected agricultural systems and enterprises"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Comparing pig housing systems.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m10s01-theory",
+            "knowledge_check": "m10s01-check",
+            "evidence": "m10s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m10s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m10s02",
+          "title": "Feed, growth and production goals",
+          "content_descriptors": [
+            "S06 — Explain animal nutritional requirements and apply welfare guidelines",
+            "S07 — Explain production techniques for selected agricultural systems and enterprises"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Feed, growth and production goals.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m10s02-theory",
+            "knowledge_check": "m10s02-check",
+            "evidence": "m10s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m10s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m10s03",
+          "title": "Welfare evidence and defensible choices",
+          "content_descriptors": [
+            "S06 — Explain animal nutritional requirements and apply welfare guidelines",
+            "S07 — Explain production techniques for selected agricultural systems and enterprises"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S07",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Welfare evidence and defensible choices.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m10s03-theory",
+            "knowledge_check": "m10s03-check",
+            "evidence": "m10s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m10s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    },
+    {
+      "module_id": "m11",
+      "title": "Australian Poultry Industry — Farm to Plate",
+      "timing": "Periods 47-50 | Fortnight 10 (periods 2-5 of 5)",
+      "outcome_codes": [
+        "AGT5-SAF-01",
+        "AGT5-APG-01",
+        "AGT5-PRA-01",
+        "AGT5-ENV-01",
+        "AGT5-USE-01",
+        "AGT5-COM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m11s01",
+          "title": "Poultry, broilers and layers",
+          "content_descriptors": [
+            "S06 — Explain animal-production steps from farm gate to consumer, including traceability",
+            "S06 — Apply animal-welfare guidelines and regulations in enterprise management"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Poultry, broilers and layers.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m11s01-theory",
+            "knowledge_check": "m11s01-check",
+            "evidence": "m11s01-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m11s01-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m11s02",
+          "title": "A poultry supply chain and location decisions",
+          "content_descriptors": [
+            "S06 — Explain animal-production steps from farm gate to consumer, including traceability",
+            "S06 — Apply animal-welfare guidelines and regulations in enterprise management"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in A poultry supply chain and location decisions.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m11s02-theory",
+            "knowledge_check": "m11s02-check",
+            "evidence": "m11s02-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m11s02-media"
+            ]
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m11s03",
+          "title": "Layer systems, welfare indicators and trade-offs",
+          "content_descriptors": [
+            "S06 — Explain animal-production steps from farm gate to consumer, including traceability",
+            "S06 — Apply animal-welfare guidelines and regulations in enterprise management"
+          ],
+          "source_ids": [
+            "S01",
+            "S03",
+            "S04",
+            "S06",
+            "S02",
+            "S08"
+          ],
+          "learning_intention": "Understand and apply the source-grounded ideas in Layer systems, welfare indicators and trade-offs.",
+          "learning_sequence": [
+            "Read and discuss the named theory",
+            "Use the teaching visual and source boundary",
+            "Complete the available check and saved evidence"
+          ],
+          "evidence": "Two source-grounded saved written responses adjacent to this section.",
+          "formative_checks": "Ten source-grounded MCQs with option-specific feedback adjacent to this section.",
+          "adjustments": "Use visible takeaways, hints and scaffolded response support; teacher adjusts the pace and local task demand.",
+          "literacy_numeracy_digital": "Use subject vocabulary, interpret evidence and communicate a justified response using the course site.",
+          "safety_workplace": "Follow current teacher directions and local procedures; stop and ask when a condition or task is not authorised.",
+          "resources": [
+            "Named guided-course section",
+            "Authorised source links shown on the course site"
+          ],
+          "site_destinations": {
+            "theory": "m11s03-theory",
+            "knowledge_check": "m11s03-check",
+            "evidence": "m11s03-evidence",
+            "activity": {
+              "state": "not-applicable",
+              "reason": "No distinct applied-learning activity route exists in the inherited unit; this scoped realignment does not claim a complete new-build activity package."
+            },
+            "media": [
+              "m11s03-media"
+            ]
+          },
+          "substantial_sequence": true
+        }
+      ]
+    }
+  ],
+  "teacher_to_confirm": [
+    {
+      "id": "TTC-01",
+      "status": "Teacher to confirm",
+      "owner": "Course teacher",
+      "affected_scope": "Exact agriculture practical or fieldwork activities, resources, local risk controls and supervision",
+      "due_before": "Before each practical or fieldwork period",
+      "smallest_action": "Confirm and insert: Exact agriculture practical or fieldwork activities, resources, local risk controls and supervision."
+    },
+    {
+      "id": "TTC-02",
+      "status": "Teacher to confirm",
+      "owner": "Course teacher",
+      "affected_scope": "Formal assessment notification, weighting, due date and submission process",
+      "due_before": "Before any formal assessment is issued",
+      "smallest_action": "Confirm and insert: Formal assessment notification, weighting, due date and submission process."
+    },
+    {
+      "id": "TTC-03",
+      "status": "Teacher to confirm",
+      "owner": "Course teacher",
+      "affected_scope": "The additional study and enterprise sequence that completes the 100-hour Agriculture Technology elective",
+      "due_before": "Before the whole-course scope and sequence is approved",
+      "smallest_action": "Confirm and insert: The additional study and enterprise sequence that completes the 100-hour Agriculture Technology elective."
+    },
+    {
+      "id": "TTC-04",
+      "status": "Teacher to confirm",
+      "owner": "Course teacher",
+      "affected_scope": "The required collaborative activity within the broader 100-hour course",
+      "due_before": "Before the collaborative activity is scheduled",
+      "smallest_action": "Confirm and insert: The required collaborative activity within the broader 100-hour course."
+    }
+  ],
+  "site_mapping": [
+    {
+      "site_id": "m01-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 1 folio evidence",
+      "module_id": "m01"
+    },
+    {
+      "site_id": "m01s01-theory",
+      "route": "module.html?module=1#theory-1-1",
+      "audience": "student",
+      "purpose": "Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01"
+    },
+    {
+      "site_id": "m01s01-check",
+      "route": "module.html?module=1#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01"
+    },
+    {
+      "site_id": "m01s01-evidence",
+      "route": "module.html?module=1#written-evidence-1-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01"
+    },
+    {
+      "site_id": "m01s01-media",
+      "route": "module.html?module=1#theory-1-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Agriculture and everyday life",
+      "module_id": "m01",
+      "section_id": "m01s01"
+    },
+    {
+      "site_id": "m01s02-theory",
+      "route": "module.html?module=1#theory-1-2",
+      "audience": "student",
+      "purpose": "Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02"
+    },
+    {
+      "site_id": "m01s02-check",
+      "route": "module.html?module=1#knowledge-checks-1-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02"
+    },
+    {
+      "site_id": "m01s02-evidence",
+      "route": "module.html?module=1#written-evidence-1-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02"
+    },
+    {
+      "site_id": "m01s02-media",
+      "route": "module.html?module=1#theory-1-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Agricultural industry sectors",
+      "module_id": "m01",
+      "section_id": "m01s02"
+    },
+    {
+      "site_id": "m01s03-theory",
+      "route": "module.html?module=1#theory-1-3",
+      "audience": "student",
+      "purpose": "Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03"
+    },
+    {
+      "site_id": "m01s03-check",
+      "route": "module.html?module=1#knowledge-checks-1-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03"
+    },
+    {
+      "site_id": "m01s03-evidence",
+      "route": "module.html?module=1#written-evidence-1-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03"
+    },
+    {
+      "site_id": "m01s03-media",
+      "route": "module.html?module=1#theory-1-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Change in Australian agriculture",
+      "module_id": "m01",
+      "section_id": "m01s03"
+    },
+    {
+      "site_id": "m02-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 2 folio evidence",
+      "module_id": "m02"
+    },
+    {
+      "site_id": "m02s01-theory",
+      "route": "module.html?module=2#theory-2-1",
+      "audience": "student",
+      "purpose": "Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01"
+    },
+    {
+      "site_id": "m02s01-check",
+      "route": "module.html?module=2#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01"
+    },
+    {
+      "site_id": "m02s01-evidence",
+      "route": "module.html?module=2#written-evidence-2-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01"
+    },
+    {
+      "site_id": "m02s01-media",
+      "route": "module.html?module=2#theory-2-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Agriculture and connected markets",
+      "module_id": "m02",
+      "section_id": "m02s01"
+    },
+    {
+      "site_id": "m02s02-theory",
+      "route": "module.html?module=2#theory-2-2",
+      "audience": "student",
+      "purpose": "The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02"
+    },
+    {
+      "site_id": "m02s02-check",
+      "route": "module.html?module=2#knowledge-checks-2-2",
+      "audience": "student",
+      "purpose": "Ten-question check for The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02"
+    },
+    {
+      "site_id": "m02s02-evidence",
+      "route": "module.html?module=2#written-evidence-2-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02"
+    },
+    {
+      "site_id": "m02s02-media",
+      "route": "module.html?module=2#theory-2-2",
+      "audience": "student",
+      "purpose": "Teaching visual for The four dimensions of food security",
+      "module_id": "m02",
+      "section_id": "m02s02"
+    },
+    {
+      "site_id": "m02s03-theory",
+      "route": "module.html?module=2#theory-2-3",
+      "audience": "student",
+      "purpose": "Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03"
+    },
+    {
+      "site_id": "m02s03-check",
+      "route": "module.html?module=2#knowledge-checks-2-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03"
+    },
+    {
+      "site_id": "m02s03-evidence",
+      "route": "module.html?module=2#written-evidence-2-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03"
+    },
+    {
+      "site_id": "m02s03-media",
+      "route": "module.html?module=2#theory-2-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Threats and resilient responses",
+      "module_id": "m02",
+      "section_id": "m02s03"
+    },
+    {
+      "site_id": "m03-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 3 folio evidence",
+      "module_id": "m03"
+    },
+    {
+      "site_id": "m03s01-theory",
+      "route": "module.html?module=3#theory-3-1",
+      "audience": "student",
+      "purpose": "Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01"
+    },
+    {
+      "site_id": "m03s01-check",
+      "route": "module.html?module=3#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01"
+    },
+    {
+      "site_id": "m03s01-evidence",
+      "route": "module.html?module=3#written-evidence-3-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01"
+    },
+    {
+      "site_id": "m03s01-media",
+      "route": "module.html?module=3#theory-3-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Cattle groups and adaptation clues",
+      "module_id": "m03",
+      "section_id": "m03s01"
+    },
+    {
+      "site_id": "m03s02-theory",
+      "route": "module.html?module=3#theory-3-2",
+      "audience": "student",
+      "purpose": "Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02"
+    },
+    {
+      "site_id": "m03s02-check",
+      "route": "module.html?module=3#knowledge-checks-3-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02"
+    },
+    {
+      "site_id": "m03s02-evidence",
+      "route": "module.html?module=3#written-evidence-3-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02"
+    },
+    {
+      "site_id": "m03s02-media",
+      "route": "module.html?module=3#theory-3-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Selective breeding and evidence",
+      "module_id": "m03",
+      "section_id": "m03s02"
+    },
+    {
+      "site_id": "m03s03-theory",
+      "route": "module.html?module=3#theory-3-3",
+      "audience": "student",
+      "purpose": "Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03"
+    },
+    {
+      "site_id": "m03s03-check",
+      "route": "module.html?module=3#knowledge-checks-3-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03"
+    },
+    {
+      "site_id": "m03s03-evidence",
+      "route": "module.html?module=3#written-evidence-3-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03"
+    },
+    {
+      "site_id": "m03s03-media",
+      "route": "module.html?module=3#theory-3-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Matching cattle to a production environment",
+      "module_id": "m03",
+      "section_id": "m03s03"
+    },
+    {
+      "site_id": "m04-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 4 folio evidence",
+      "module_id": "m04"
+    },
+    {
+      "site_id": "m04s01-theory",
+      "route": "module.html?module=4#theory-4-1",
+      "audience": "student",
+      "purpose": "Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01"
+    },
+    {
+      "site_id": "m04s01-check",
+      "route": "module.html?module=4#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01"
+    },
+    {
+      "site_id": "m04s01-evidence",
+      "route": "module.html?module=4#written-evidence-4-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01"
+    },
+    {
+      "site_id": "m04s01-media",
+      "route": "module.html?module=4#theory-4-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Extensive and intensive beef systems",
+      "module_id": "m04",
+      "section_id": "m04s01"
+    },
+    {
+      "site_id": "m04s02-theory",
+      "route": "module.html?module=4#theory-4-2",
+      "audience": "student",
+      "purpose": "Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02"
+    },
+    {
+      "site_id": "m04s02-check",
+      "route": "module.html?module=4#knowledge-checks-4-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02"
+    },
+    {
+      "site_id": "m04s02-evidence",
+      "route": "module.html?module=4#written-evidence-4-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02"
+    },
+    {
+      "site_id": "m04s02-media",
+      "route": "module.html?module=4#theory-4-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Pasture and feedlot feeding pathways",
+      "module_id": "m04",
+      "section_id": "m04s02"
+    },
+    {
+      "site_id": "m04s03-theory",
+      "route": "module.html?module=4#theory-4-3",
+      "audience": "student",
+      "purpose": "Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03"
+    },
+    {
+      "site_id": "m04s03-check",
+      "route": "module.html?module=4#knowledge-checks-4-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03"
+    },
+    {
+      "site_id": "m04s03-evidence",
+      "route": "module.html?module=4#written-evidence-4-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03"
+    },
+    {
+      "site_id": "m04s03-media",
+      "route": "module.html?module=4#theory-4-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Comparing systems with evidence",
+      "module_id": "m04",
+      "section_id": "m04s03"
+    },
+    {
+      "site_id": "m05-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 5 folio evidence",
+      "module_id": "m05"
+    },
+    {
+      "site_id": "m05s01-theory",
+      "route": "module.html?module=5#theory-5-1",
+      "audience": "student",
+      "purpose": "Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01"
+    },
+    {
+      "site_id": "m05s01-check",
+      "route": "module.html?module=5#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01"
+    },
+    {
+      "site_id": "m05s01-evidence",
+      "route": "module.html?module=5#written-evidence-5-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01"
+    },
+    {
+      "site_id": "m05s01-media",
+      "route": "module.html?module=5#theory-5-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Dairy breeds: traits and evidence",
+      "module_id": "m05",
+      "section_id": "m05s01"
+    },
+    {
+      "site_id": "m05s02-theory",
+      "route": "module.html?module=5#theory-5-2",
+      "audience": "student",
+      "purpose": "Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02"
+    },
+    {
+      "site_id": "m05s02-check",
+      "route": "module.html?module=5#knowledge-checks-5-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02"
+    },
+    {
+      "site_id": "m05s02-evidence",
+      "route": "module.html?module=5#written-evidence-5-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02"
+    },
+    {
+      "site_id": "m05s02-media",
+      "route": "module.html?module=5#theory-5-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Conditions, resources and dairy production",
+      "module_id": "m05",
+      "section_id": "m05s02"
+    },
+    {
+      "site_id": "m05s03-theory",
+      "route": "module.html?module=5#theory-5-3",
+      "audience": "student",
+      "purpose": "From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03"
+    },
+    {
+      "site_id": "m05s03-check",
+      "route": "module.html?module=5#knowledge-checks-5-3",
+      "audience": "student",
+      "purpose": "Ten-question check for From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03"
+    },
+    {
+      "site_id": "m05s03-evidence",
+      "route": "module.html?module=5#written-evidence-5-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03"
+    },
+    {
+      "site_id": "m05s03-media",
+      "route": "module.html?module=5#theory-5-3",
+      "audience": "student",
+      "purpose": "Teaching visual for From milk to value-added products",
+      "module_id": "m05",
+      "section_id": "m05s03"
+    },
+    {
+      "site_id": "m06-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 6 folio evidence",
+      "module_id": "m06"
+    },
+    {
+      "site_id": "m06s01-theory",
+      "route": "module.html?module=6#theory-6-1",
+      "audience": "student",
+      "purpose": "Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01"
+    },
+    {
+      "site_id": "m06s01-check",
+      "route": "module.html?module=6#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01"
+    },
+    {
+      "site_id": "m06s01-evidence",
+      "route": "module.html?module=6#written-evidence-6-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01"
+    },
+    {
+      "site_id": "m06s01-media",
+      "route": "module.html?module=6#theory-6-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Why milk is processed",
+      "module_id": "m06",
+      "section_id": "m06s01"
+    },
+    {
+      "site_id": "m06s02-theory",
+      "route": "module.html?module=6#theory-6-2",
+      "audience": "student",
+      "purpose": "Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02"
+    },
+    {
+      "site_id": "m06s02-check",
+      "route": "module.html?module=6#knowledge-checks-6-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02"
+    },
+    {
+      "site_id": "m06s02-evidence",
+      "route": "module.html?module=6#written-evidence-6-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02"
+    },
+    {
+      "site_id": "m06s02-media",
+      "route": "module.html?module=6#theory-6-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Food safety controls from farm to fridge",
+      "module_id": "m06",
+      "section_id": "m06s02"
+    },
+    {
+      "site_id": "m06s03-theory",
+      "route": "module.html?module=6#theory-6-3",
+      "audience": "student",
+      "purpose": "Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03"
+    },
+    {
+      "site_id": "m06s03-check",
+      "route": "module.html?module=6#knowledge-checks-6-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03"
+    },
+    {
+      "site_id": "m06s03-evidence",
+      "route": "module.html?module=6#written-evidence-6-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03"
+    },
+    {
+      "site_id": "m06s03-media",
+      "route": "module.html?module=6#theory-6-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Nutrition information and informed choice",
+      "module_id": "m06",
+      "section_id": "m06s03"
+    },
+    {
+      "site_id": "m07-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 7 folio evidence",
+      "module_id": "m07"
+    },
+    {
+      "site_id": "m07s01-theory",
+      "route": "module.html?module=7#theory-7-1",
+      "audience": "student",
+      "purpose": "What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01"
+    },
+    {
+      "site_id": "m07s01-check",
+      "route": "module.html?module=7#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01"
+    },
+    {
+      "site_id": "m07s01-evidence",
+      "route": "module.html?module=7#written-evidence-7-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01"
+    },
+    {
+      "site_id": "m07s01-media",
+      "route": "module.html?module=7#theory-7-1",
+      "audience": "student",
+      "purpose": "Teaching visual for What horticulture includes",
+      "module_id": "m07",
+      "section_id": "m07s01"
+    },
+    {
+      "site_id": "m07s02-theory",
+      "route": "module.html?module=7#theory-7-2",
+      "audience": "student",
+      "purpose": "Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02"
+    },
+    {
+      "site_id": "m07s02-check",
+      "route": "module.html?module=7#knowledge-checks-7-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02"
+    },
+    {
+      "site_id": "m07s02-evidence",
+      "route": "module.html?module=7#written-evidence-7-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02"
+    },
+    {
+      "site_id": "m07s02-media",
+      "route": "module.html?module=7#theory-7-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Why crops suit particular regions",
+      "module_id": "m07",
+      "section_id": "m07s02"
+    },
+    {
+      "site_id": "m07s03-theory",
+      "route": "module.html?module=7#theory-7-3",
+      "audience": "student",
+      "purpose": "Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03"
+    },
+    {
+      "site_id": "m07s03-check",
+      "route": "module.html?module=7#knowledge-checks-7-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03"
+    },
+    {
+      "site_id": "m07s03-evidence",
+      "route": "module.html?module=7#written-evidence-7-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03"
+    },
+    {
+      "site_id": "m07s03-media",
+      "route": "module.html?module=7#theory-7-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Seasonality, markets and production decisions",
+      "module_id": "m07",
+      "section_id": "m07s03"
+    },
+    {
+      "site_id": "m08-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 8 folio evidence",
+      "module_id": "m08"
+    },
+    {
+      "site_id": "m08s01-theory",
+      "route": "module.html?module=8#theory-8-1",
+      "audience": "student",
+      "purpose": "Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01"
+    },
+    {
+      "site_id": "m08s01-check",
+      "route": "module.html?module=8#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01"
+    },
+    {
+      "site_id": "m08s01-evidence",
+      "route": "module.html?module=8#written-evidence-8-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01"
+    },
+    {
+      "site_id": "m08s01-media",
+      "route": "module.html?module=8#theory-8-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Tracing a horticultural product from paddock to plate",
+      "module_id": "m08",
+      "section_id": "m08s01"
+    },
+    {
+      "site_id": "m08s02-theory",
+      "route": "module.html?module=8#theory-8-2",
+      "audience": "student",
+      "purpose": "Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02"
+    },
+    {
+      "site_id": "m08s02-check",
+      "route": "module.html?module=8#knowledge-checks-8-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02"
+    },
+    {
+      "site_id": "m08s02-evidence",
+      "route": "module.html?module=8#written-evidence-8-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02"
+    },
+    {
+      "site_id": "m08s02-media",
+      "route": "module.html?module=8#theory-8-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Sensors, robotics and precision decisions",
+      "module_id": "m08",
+      "section_id": "m08s02"
+    },
+    {
+      "site_id": "m08s03-theory",
+      "route": "module.html?module=8#theory-8-3",
+      "audience": "student",
+      "purpose": "Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03"
+    },
+    {
+      "site_id": "m08s03-check",
+      "route": "module.html?module=8#knowledge-checks-8-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03"
+    },
+    {
+      "site_id": "m08s03-evidence",
+      "route": "module.html?module=8#written-evidence-8-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03"
+    },
+    {
+      "site_id": "m08s03-media",
+      "route": "module.html?module=8#theory-8-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Plant parts, food labels and balanced choices",
+      "module_id": "m08",
+      "section_id": "m08s03"
+    },
+    {
+      "site_id": "m09-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 9 folio evidence",
+      "module_id": "m09"
+    },
+    {
+      "site_id": "m09s01-theory",
+      "route": "module.html?module=9#theory-9-1",
+      "audience": "student",
+      "purpose": "Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01"
+    },
+    {
+      "site_id": "m09s01-check",
+      "route": "module.html?module=9#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01"
+    },
+    {
+      "site_id": "m09s01-evidence",
+      "route": "module.html?module=9#written-evidence-9-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01"
+    },
+    {
+      "site_id": "m09s01-media",
+      "route": "module.html?module=9#theory-9-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Pork products and value adding",
+      "module_id": "m09",
+      "section_id": "m09s01"
+    },
+    {
+      "site_id": "m09s02-theory",
+      "route": "module.html?module=9#theory-9-2",
+      "audience": "student",
+      "purpose": "Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02"
+    },
+    {
+      "site_id": "m09s02-check",
+      "route": "module.html?module=9#knowledge-checks-9-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02"
+    },
+    {
+      "site_id": "m09s02-evidence",
+      "route": "module.html?module=9#written-evidence-9-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02"
+    },
+    {
+      "site_id": "m09s02-media",
+      "route": "module.html?module=9#theory-9-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Reading country-of-origin evidence",
+      "module_id": "m09",
+      "section_id": "m09s02"
+    },
+    {
+      "site_id": "m09s03-theory",
+      "route": "module.html?module=9#theory-9-3",
+      "audience": "student",
+      "purpose": "Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03"
+    },
+    {
+      "site_id": "m09s03-check",
+      "route": "module.html?module=9#knowledge-checks-9-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03"
+    },
+    {
+      "site_id": "m09s03-evidence",
+      "route": "module.html?module=9#written-evidence-9-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03"
+    },
+    {
+      "site_id": "m09s03-media",
+      "route": "module.html?module=9#theory-9-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Breed traits, crossbreeding and evidence",
+      "module_id": "m09",
+      "section_id": "m09s03"
+    },
+    {
+      "site_id": "m10-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 10 folio evidence",
+      "module_id": "m10"
+    },
+    {
+      "site_id": "m10s01-theory",
+      "route": "module.html?module=10#theory-10-1",
+      "audience": "student",
+      "purpose": "Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01"
+    },
+    {
+      "site_id": "m10s01-check",
+      "route": "module.html?module=10#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01"
+    },
+    {
+      "site_id": "m10s01-evidence",
+      "route": "module.html?module=10#written-evidence-10-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01"
+    },
+    {
+      "site_id": "m10s01-media",
+      "route": "module.html?module=10#theory-10-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Comparing pig housing systems",
+      "module_id": "m10",
+      "section_id": "m10s01"
+    },
+    {
+      "site_id": "m10s02-theory",
+      "route": "module.html?module=10#theory-10-2",
+      "audience": "student",
+      "purpose": "Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02"
+    },
+    {
+      "site_id": "m10s02-check",
+      "route": "module.html?module=10#knowledge-checks-10-2",
+      "audience": "student",
+      "purpose": "Ten-question check for Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02"
+    },
+    {
+      "site_id": "m10s02-evidence",
+      "route": "module.html?module=10#written-evidence-10-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02"
+    },
+    {
+      "site_id": "m10s02-media",
+      "route": "module.html?module=10#theory-10-2",
+      "audience": "student",
+      "purpose": "Teaching visual for Feed, growth and production goals",
+      "module_id": "m10",
+      "section_id": "m10s02"
+    },
+    {
+      "site_id": "m10s03-theory",
+      "route": "module.html?module=10#theory-10-3",
+      "audience": "student",
+      "purpose": "Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03"
+    },
+    {
+      "site_id": "m10s03-check",
+      "route": "module.html?module=10#knowledge-checks-10-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03"
+    },
+    {
+      "site_id": "m10s03-evidence",
+      "route": "module.html?module=10#written-evidence-10-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03"
+    },
+    {
+      "site_id": "m10s03-media",
+      "route": "module.html?module=10#theory-10-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Welfare evidence and defensible choices",
+      "module_id": "m10",
+      "section_id": "m10s03"
+    },
+    {
+      "site_id": "m11-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Module 11 folio evidence",
+      "module_id": "m11"
+    },
+    {
+      "site_id": "m11s01-theory",
+      "route": "module.html?module=11#theory-11-1",
+      "audience": "student",
+      "purpose": "Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01"
+    },
+    {
+      "site_id": "m11s01-check",
+      "route": "module.html?module=11#knowledge-checks",
+      "audience": "student",
+      "purpose": "Ten-question check for Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01"
+    },
+    {
+      "site_id": "m11s01-evidence",
+      "route": "module.html?module=11#written-evidence-11-1-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01"
+    },
+    {
+      "site_id": "m11s01-media",
+      "route": "module.html?module=11#theory-11-1",
+      "audience": "student",
+      "purpose": "Teaching visual for Poultry, broilers and layers",
+      "module_id": "m11",
+      "section_id": "m11s01"
+    },
+    {
+      "site_id": "m11s02-theory",
+      "route": "module.html?module=11#theory-11-2",
+      "audience": "student",
+      "purpose": "A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02"
+    },
+    {
+      "site_id": "m11s02-check",
+      "route": "module.html?module=11#knowledge-checks-11-2",
+      "audience": "student",
+      "purpose": "Ten-question check for A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02"
+    },
+    {
+      "site_id": "m11s02-evidence",
+      "route": "module.html?module=11#written-evidence-11-2-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02"
+    },
+    {
+      "site_id": "m11s02-media",
+      "route": "module.html?module=11#theory-11-2",
+      "audience": "student",
+      "purpose": "Teaching visual for A poultry supply chain and location decisions",
+      "module_id": "m11",
+      "section_id": "m11s02"
+    },
+    {
+      "site_id": "m11s03-theory",
+      "route": "module.html?module=11#theory-11-3",
+      "audience": "student",
+      "purpose": "Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03"
+    },
+    {
+      "site_id": "m11s03-check",
+      "route": "module.html?module=11#knowledge-checks-11-3",
+      "audience": "student",
+      "purpose": "Ten-question check for Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03"
+    },
+    {
+      "site_id": "m11s03-evidence",
+      "route": "module.html?module=11#written-evidence-11-3-1",
+      "audience": "student",
+      "purpose": "Two saved written responses adjacent to Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03"
+    },
+    {
+      "site_id": "m11s03-media",
+      "route": "module.html?module=11#theory-11-3",
+      "audience": "student",
+      "purpose": "Teaching visual for Layer systems, welfare indicators and trade-offs",
+      "module_id": "m11",
+      "section_id": "m11s03"
+    }
+  ],
+  "delivery_register": {
+    "status": "Teacher completes during delivery",
+    "entries": [
+      {
+        "period": "1",
+        "planned_focus": "Agriculture and everyday life",
+        "site_ids": [
+          "m01s01-theory",
+          "m01s01-check",
+          "m01s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "2",
+        "planned_focus": "Agricultural industry sectors",
+        "site_ids": [
+          "m01s02-theory",
+          "m01s02-check",
+          "m01s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "3",
+        "planned_focus": "Change in Australian agriculture",
+        "site_ids": [
+          "m01s03-theory",
+          "m01s03-check",
+          "m01s03-evidence",
+          "m01-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "4",
+        "planned_focus": "Module 1: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "5",
+        "planned_focus": "Module 1: teacher-approved practical or fieldwork 2",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "6",
+        "planned_focus": "Agriculture and connected markets",
+        "site_ids": [
+          "m02s01-theory",
+          "m02s01-check",
+          "m02s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "7",
+        "planned_focus": "The four dimensions of food security",
+        "site_ids": [
+          "m02s02-theory",
+          "m02s02-check",
+          "m02s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "8",
+        "planned_focus": "Threats and resilient responses",
+        "site_ids": [
+          "m02s03-theory",
+          "m02s03-check",
+          "m02s03-evidence",
+          "m02-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "9",
+        "planned_focus": "Module 2: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "10",
+        "planned_focus": "Module 2: teacher-approved practical or fieldwork 2",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "11",
+        "planned_focus": "Cattle groups and adaptation clues",
+        "site_ids": [
+          "m03s01-theory",
+          "m03s01-check",
+          "m03s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "12",
+        "planned_focus": "Selective breeding and evidence",
+        "site_ids": [
+          "m03s02-theory",
+          "m03s02-check",
+          "m03s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "13",
+        "planned_focus": "Matching cattle to a production environment",
+        "site_ids": [
+          "m03s03-theory",
+          "m03s03-check",
+          "m03s03-evidence",
+          "m03-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "14",
+        "planned_focus": "Module 3: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "15",
+        "planned_focus": "Module 3: teacher-approved practical or fieldwork 2",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "16",
+        "planned_focus": "Extensive and intensive beef systems",
+        "site_ids": [
+          "m04s01-theory",
+          "m04s01-check",
+          "m04s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "17",
+        "planned_focus": "Pasture and feedlot feeding pathways",
+        "site_ids": [
+          "m04s02-theory",
+          "m04s02-check",
+          "m04s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "18",
+        "planned_focus": "Comparing systems with evidence",
+        "site_ids": [
+          "m04s03-theory",
+          "m04s03-check",
+          "m04s03-evidence",
+          "m04-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "19",
+        "planned_focus": "Module 4: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "20",
+        "planned_focus": "Module 4: teacher-approved practical or fieldwork 2",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "21",
+        "planned_focus": "Dairy breeds: traits and evidence",
+        "site_ids": [
+          "m05s01-theory",
+          "m05s01-check",
+          "m05s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "22",
+        "planned_focus": "Conditions, resources and dairy production",
+        "site_ids": [
+          "m05s02-theory",
+          "m05s02-check",
+          "m05s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "23",
+        "planned_focus": "From milk to value-added products",
+        "site_ids": [
+          "m05s03-theory",
+          "m05s03-check",
+          "m05s03-evidence",
+          "m05-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "24",
+        "planned_focus": "Module 5: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "25",
+        "planned_focus": "Module 5: teacher-approved practical or fieldwork 2",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "26",
+        "planned_focus": "Why milk is processed",
+        "site_ids": [
+          "m06s01-theory",
+          "m06s01-check",
+          "m06s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "27",
+        "planned_focus": "Food safety controls from farm to fridge",
+        "site_ids": [
+          "m06s02-theory",
+          "m06s02-check",
+          "m06s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "28",
+        "planned_focus": "Nutrition information and informed choice",
+        "site_ids": [
+          "m06s03-theory",
+          "m06s03-check",
+          "m06s03-evidence",
+          "m06-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "29",
+        "planned_focus": "Module 6: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "30",
+        "planned_focus": "Module 6: teacher-approved practical or fieldwork 2",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "31",
+        "planned_focus": "What horticulture includes",
+        "site_ids": [
+          "m07s01-theory",
+          "m07s01-check",
+          "m07s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "32",
+        "planned_focus": "Why crops suit particular regions",
+        "site_ids": [
+          "m07s02-theory",
+          "m07s02-check",
+          "m07s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "33",
+        "planned_focus": "Seasonality, markets and production decisions",
+        "site_ids": [
+          "m07s03-theory",
+          "m07s03-check",
+          "m07s03-evidence",
+          "m07-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "34",
+        "planned_focus": "Module 7: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "35",
+        "planned_focus": "Tracing a horticultural product from paddock to plate",
+        "site_ids": [
+          "m08s01-theory",
+          "m08s01-check",
+          "m08s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "36",
+        "planned_focus": "Sensors, robotics and precision decisions",
+        "site_ids": [
+          "m08s02-theory",
+          "m08s02-check",
+          "m08s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "37",
+        "planned_focus": "Plant parts, food labels and balanced choices",
+        "site_ids": [
+          "m08s03-theory",
+          "m08s03-check",
+          "m08s03-evidence",
+          "m08-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "38",
+        "planned_focus": "Module 8: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "39",
+        "planned_focus": "Pork products and value adding",
+        "site_ids": [
+          "m09s01-theory",
+          "m09s01-check",
+          "m09s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "40",
+        "planned_focus": "Reading country-of-origin evidence",
+        "site_ids": [
+          "m09s02-theory",
+          "m09s02-check",
+          "m09s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "41",
+        "planned_focus": "Breed traits, crossbreeding and evidence",
+        "site_ids": [
+          "m09s03-theory",
+          "m09s03-check",
+          "m09s03-evidence",
+          "m09-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "42",
+        "planned_focus": "Module 9: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "43",
+        "planned_focus": "Comparing pig housing systems",
+        "site_ids": [
+          "m10s01-theory",
+          "m10s01-check",
+          "m10s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "44",
+        "planned_focus": "Feed, growth and production goals",
+        "site_ids": [
+          "m10s02-theory",
+          "m10s02-check",
+          "m10s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "45",
+        "planned_focus": "Welfare evidence and defensible choices",
+        "site_ids": [
+          "m10s03-theory",
+          "m10s03-check",
+          "m10s03-evidence",
+          "m10-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "46",
+        "planned_focus": "Module 10: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "47",
+        "planned_focus": "Poultry, broilers and layers",
+        "site_ids": [
+          "m11s01-theory",
+          "m11s01-check",
+          "m11s01-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and source-grounded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "48",
+        "planned_focus": "A poultry supply chain and location decisions",
+        "site_ids": [
+          "m11s02-theory",
+          "m11s02-check",
+          "m11s02-evidence"
+        ],
+        "planned_evidence": "Saved check feedback and evidence-based explanation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "49",
+        "planned_focus": "Layer systems, welfare indicators and trade-offs",
+        "site_ids": [
+          "m11s03-theory",
+          "m11s03-check",
+          "m11s03-evidence",
+          "m11-folio"
+        ],
+        "planned_evidence": "Saved check, written response and organised folio evidence.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "50",
+        "planned_focus": "Module 11: teacher-approved practical or fieldwork 1",
+        "site_ids": [],
+        "planned_evidence": "Teacher observation and authentic practical/fieldwork record. Activity, resources, method and controls: Teacher to confirm.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      }
+    ]
+  },
+  "course_specific_compliance": [
+    {
+      "compliance_id": "AG-C01",
+      "requirement_type": "100-hour course structure",
+      "requirement": "At least two agricultural enterprises, including one plant and one animal enterprise",
+      "source_ids": [
+        "S03",
+        "S05",
+        "S06"
+      ],
+      "module_ids": [
+        "m03",
+        "m07"
+      ],
+      "section_ids": [],
+      "evidence_site_ids": [
+        "m03s01-theory",
+        "m07s01-theory"
+      ],
+      "status": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "mapping_note": "The named theory routes introduce plant and animal enterprise contexts; they do not prove that students undertake the required enterprises."
+    },
+    {
+      "compliance_id": "AG-C02",
+      "requirement_type": "100-hour course structure",
+      "requirement": "At least one intensive or extensive enterprise context",
+      "source_ids": [
+        "S03",
+        "S06"
+      ],
+      "module_ids": [
+        "m04"
+      ],
+      "section_ids": [
+        "m04s01"
+      ],
+      "evidence_site_ids": [
+        "m04s01-theory"
+      ],
+      "status": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "mapping_note": "The theory route introduces production systems; it does not prove that students undertake an intensive or extensive enterprise."
+    },
+    {
+      "compliance_id": "AG-C03",
+      "requirement_type": "100-hour course structure",
+      "requirement": "At least one collaborative activity across the broader course",
+      "source_ids": [
+        "S03",
+        "S07"
+      ],
+      "module_ids": [
+        "m01",
+        "m02",
+        "m03",
+        "m04",
+        "m05",
+        "m06",
+        "m07",
+        "m08",
+        "m09",
+        "m10",
+        "m11"
+      ],
+      "section_ids": [],
+      "evidence_site_ids": [],
+      "status": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-04"
+      ]
+    },
+    {
+      "compliance_id": "AG-C04",
+      "requirement_type": "course completion boundary",
+      "requirement": "This 50-period unit does not by itself complete the 100-hour elective",
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "module_ids": [
+        "m01",
+        "m02",
+        "m03",
+        "m04",
+        "m05",
+        "m06",
+        "m07",
+        "m08",
+        "m09",
+        "m10",
+        "m11"
+      ],
+      "section_ids": [],
+      "evidence_site_ids": [],
+      "status": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.docx",
+      "sha256": "c56e69ea629ba909d417c93c7de13b05526ebe0e5cbbc18e7a558492cc0e33e5"
+    },
+    {
+      "path": "Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.pdf",
+      "sha256": "25d3285248516816a44a23c394961e1fd6692c1285a3fade51351a0132cc7392"
+    },
+    {
+      "path": "Agriculture-50-Period-Site-Map-v3.0.json",
+      "sha256": "c97717c495b5a7833d38bad914bf434a428b65eebe6373f3da54e84756ade748"
+    }
+  ]
+}

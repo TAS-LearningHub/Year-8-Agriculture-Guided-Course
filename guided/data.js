@@ -6,7 +6,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 1,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 1 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "50 minutes",
       "title": "Introduction to Agriculture",
       "summary": "Define agriculture, connect daily products to sectors and investigate how people and technologies shape production.",
@@ -629,7 +629,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 2,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 2 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "50 minutes",
       "title": "The Value of Agriculture and Food Security",
       "summary": "Explain why agriculture matters and examine the availability, access, use and stability of food.",
@@ -1240,7 +1240,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 3,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 3 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "50 minutes",
       "title": "Introduction to Beef Cattle and Breeds",
       "summary": "Compare cattle groups and breeds, then connect characteristics to environments and production goals.",
@@ -1853,7 +1853,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 4,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 4 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "55 minutes",
       "title": "Beef Cattle Farming and Nutrition",
       "summary": "Compare beef-production and feeding systems, then explain the trade-offs using the supplied lesson evidence.",
@@ -2469,7 +2469,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 5,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 5 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "60 minutes",
       "title": "Dairy Breeds and Milk Production",
       "summary": "Relate dairy breeds, regions, routines and value adding without inventing local farm requirements.",
@@ -3080,7 +3080,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 6,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 6 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "60 minutes",
       "title": "Dairy Processing and Nutrition",
       "summary": "Sequence milk processing and explain taught nutrition concepts using current, visible sources.",
@@ -3716,7 +3716,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 7,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 7 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "60 minutes",
       "title": "Horticulture and Growing Regions",
       "summary": "Investigate horticultural products and explain how climate, water, soil and management affect regions.",
@@ -4324,7 +4324,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 8,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 8 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "60 minutes",
       "title": "Paddock to Plate — Technology, Nutrition and Choice",
       "summary": "Trace a product supply chain and evaluate the role of technology, work and food choice.",
@@ -4955,7 +4955,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 9,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 9 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "60 minutes",
       "title": "Australian Pork Industry and Breeds",
       "summary": "Interpret product labels and industry evidence, then explain breed selection and crossbreeding.",
@@ -5566,7 +5566,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 10,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 10 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "60 minutes",
       "title": "Pig Farming Systems and Feeding",
       "summary": "Compare production systems and reason about feeding, welfare, efficiency and farmer choices.",
@@ -6182,7 +6182,7 @@ window.COURSE_DATA = {
     {
       "project": "Agriculture",
       "projectModule": 11,
-      "cadence": "Teacher-adjustable two-week container",
+      "cadence": "Sequence 11 of 11 · teacher-adjustable within 20 weeks",
       "sourceLessonMinutes": "65 minutes",
       "title": "Australian Poultry Industry — Farm to Plate",
       "summary": "Distinguish broilers and layers, compare production systems and examine evidence-based trade-offs.",

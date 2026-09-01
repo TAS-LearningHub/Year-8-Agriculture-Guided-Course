@@ -1,42 +1,69 @@
 {
-  "contractVersion": "1.0",
-  "task": "TASK 11D",
-  "status": "reviewable integration input only",
+  "contractVersion": "3.0",
+  "task": "Year 8 Agriculture elective realignment",
+  "status": "current integration input",
+  "verifiedDate": "2026-09-01",
   "course": {
-    "workingTitle": "Year 8 Technology - Food and agricultural practices",
-    "schoolCourseTitle": "Teacher to confirm",
+    "workingTitle": "Year 8 Agriculture Technology elective",
+    "classification": "Stage 4 introductory unit contributing to a 100-hour Agriculture Technology elective",
     "year": 8,
-    "stage": 4
+    "stage": 4,
+    "deliveryYear": 2027,
+    "duration": {
+      "weeks": 20,
+      "periods": 50,
+      "periodMinutes": 60,
+      "periodsPerFortnight": 5,
+      "averageHoursPerWeek": 2.5
+    },
+    "completionBoundary": "Additional study is required to complete the 100-hour elective."
   },
   "authorityOrder": [
+    "Steve's 1 September 2026 course identity and Year 8 elective timetable direction",
     "Authorised Drive folder and its Year 8/2026 lesson sets",
-    "Technology 7-8 Syllabus (2023)",
+    "Agriculture Technology 7–10 Syllabus (2024)",
     "Current teacher-issued brief, plan, local procedures and risk controls",
-    "Legacy Stage 4 workbook and 2014 poultry booklet as supplementary/reference only; no current 2026 lesson dependence confirmed"
+    "Legacy Stage 4 workbook and 2014 poultry booklet as supplementary/reference only"
   ],
   "sources": {
     "driveFolder": "https://drive.google.com/drive/folders/1jCfJPg6pE-r3lrmhyKSHBZGUzHz95fbP",
     "currentLessonFolder": "https://drive.google.com/drive/folders/1Xs_4kwIpp1b-tNongrs2STuOo_GNnMkm",
-    "syllabusOutcomes": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes",
-    "syllabusCourseRequirements": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/overview/course",
+    "syllabus": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+    "syllabusOutcomes": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/outcomes",
     "teacherOnlyAnswerFilesMustRemainPrivate": true
   },
+  "stageAdjustment": {
+    "code": "AGT4-ADJ-01",
+    "statement": "in Stage 4 teachers may adjust the Stage 5 outcomes as appropriate to the needs of students in Years 7 and 8"
+  },
   "outcomes": {
-    "TE4-SDP-01": "explains relationships between sustainability, design and production",
-    "TE4-PDP-01": "describes the practices and processes of designers and producers",
-    "TE4-PPM-01": "applies processes in the planning, management and production of projects",
-    "TE4-DES-01": "communicates and evaluates design ideas and solutions",
-    "TE4-SAF-01": "selects and safely uses tools, materials, technologies and processes"
+    "AGT5-SAF-01": "applies production processes and safe work practices in agricultural contexts",
+    "AGT5-APG-01": "explains factors that influence animal and plant selection, growth and development in agricultural enterprises and systems",
+    "AGT5-PRA-01": "explains industry practices in agricultural enterprises and systems",
+    "AGT5-ENV-01": "analyses relationships between agricultural production, sustainability and consumers",
+    "AGT5-IVT-01": "investigates and assesses the influence of innovation and management practices on agricultural enterprises and systems",
+    "AGT5-USE-01": "selects and justifies the use of technologies and processes in agricultural production and systems",
+    "AGT5-COM-01": "communicates ideas and concepts in agricultural technology contexts"
   },
   "moduleContract": {
     "moduleCount": 11,
     "mapping": "one-to-one with Drive modules 1-11",
-    "container": "teacher-adjustable two-week integration container anchored by the supplied 50-65 minute lesson",
-    "formalProgrammeDurationClaim": "forbidden",
+    "cadence": "source-ordered sequence points within the confirmed 20-week and 50-period allocation",
+    "exactPeriodPlacement": "Teacher to confirm",
     "namedTheorySectionsPerModule": 3,
     "mcqsPerSection": 10,
     "totalNamedTheorySections": 33,
     "totalMcqs": 330
+  },
+  "wholeCourseRequirements": {
+    "scope": "100-hour elective context only; not complete within this unit",
+    "requirements": [
+      "at least 2 enterprises",
+      "one intensive or one extensive enterprise",
+      "one plant enterprise and one animal enterprise",
+      "at least one collaborative activity"
+    ],
+    "allocation": "Teacher to confirm across the complete 100 hours"
   },
   "formalMetadata": {
     "taskNumber": "Teacher to confirm",
@@ -55,26 +82,26 @@
     "approvedVersion": "Teacher to confirm"
   },
   "stages": [
-    {"id": 1, "title": "Introduction to Agriculture", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 1},
-    {"id": 2, "title": "The Value of Agriculture and Food Security", "outcomes": ["TE4-SDP-01", "TE4-PDP-01", "TE4-DES-01"], "folioCard": 2},
-    {"id": 3, "title": "Introduction to Beef Cattle and Breeds", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 3},
-    {"id": 4, "title": "Beef Cattle Farming and Nutrition", "outcomes": ["TE4-PPM-01", "TE4-DES-01", "TE4-SDP-01", "TE4-PDP-01"], "folioCard": 4},
-    {"id": 5, "title": "Dairy Breeds and Milk Production", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 5},
-    {"id": 6, "title": "Dairy Processing and Nutrition", "outcomes": ["TE4-PDP-01", "TE4-DES-01"], "folioCard": 6},
-    {"id": 7, "title": "Horticulture and Growing Regions", "outcomes": ["TE4-SDP-01", "TE4-PDP-01", "TE4-DES-01"], "folioCard": 7},
-    {"id": 8, "title": "Paddock to Plate - Technology, Nutrition and Choice", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 8},
-    {"id": 9, "title": "Australian Pork Industry and Breeds", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 9},
-    {"id": 10, "title": "Pig Farming Systems and Feeding", "outcomes": ["TE4-SDP-01", "TE4-PDP-01", "TE4-DES-01"], "folioCard": 10},
-    {"id": 11, "title": "Australian Poultry Industry - Farm to Plate", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 11}
+    {"id": 1, "title": "Introduction to Agriculture", "outcomes": ["AGT5-PRA-01", "AGT5-COM-01"], "folioCard": 1},
+    {"id": 2, "title": "The Value of Agriculture and Food Security", "outcomes": ["AGT5-ENV-01", "AGT5-PRA-01", "AGT5-COM-01"], "folioCard": 2},
+    {"id": 3, "title": "Introduction to Beef Cattle and Breeds", "outcomes": ["AGT5-APG-01", "AGT5-PRA-01"], "folioCard": 3},
+    {"id": 4, "title": "Beef Cattle Farming and Nutrition", "outcomes": ["AGT5-PRA-01", "AGT5-ENV-01"], "folioCard": 4},
+    {"id": 5, "title": "Dairy Breeds and Milk Production", "outcomes": ["AGT5-APG-01", "AGT5-PRA-01"], "folioCard": 5},
+    {"id": 6, "title": "Dairy Processing and Nutrition", "outcomes": ["AGT5-PRA-01", "AGT5-COM-01"], "folioCard": 6},
+    {"id": 7, "title": "Horticulture and Growing Regions", "outcomes": ["AGT5-APG-01", "AGT5-PRA-01", "AGT5-ENV-01"], "folioCard": 7},
+    {"id": 8, "title": "Paddock to Plate — Technology, Nutrition and Choice", "outcomes": ["AGT5-IVT-01", "AGT5-USE-01", "AGT5-PRA-01"], "folioCard": 8},
+    {"id": 9, "title": "Australian Pork Industry and Breeds", "outcomes": ["AGT5-APG-01", "AGT5-PRA-01", "AGT5-COM-01"], "folioCard": 9},
+    {"id": 10, "title": "Pig Farming Systems and Feeding", "outcomes": ["AGT5-APG-01", "AGT5-PRA-01", "AGT5-ENV-01"], "folioCard": 10},
+    {"id": 11, "title": "Australian Poultry Industry — Farm to Plate", "outcomes": ["AGT5-APG-01", "AGT5-PRA-01", "AGT5-ENV-01"], "folioCard": 11}
   ],
   "folio": {
     "exactCardCount": 12,
     "cards1To11MirrorStages": true,
     "card12": {
-      "title": "Agriculture plot plan, practical evidence and final evaluation",
-      "outcomes": ["TE4-PPM-01", "TE4-DES-01"],
-      "conditionalOutcome": "TE4-SAF-01 only where separately evidenced through teacher-confirmed practical work",
-      "planReadingStatus": "Teacher to confirm/provide current plan and task requirement",
+      "title": "Course synthesis, plan status and final evaluation",
+      "outcomes": ["AGT5-COM-01"],
+      "conditionalOutcome": "AGT5-SAF-01 only where separately evidenced through teacher-confirmed production and safe-work practice",
+      "planReadingStatus": "Teacher to confirm or provide current plan and task requirement",
       "mustNotInfer": ["scale", "dimensions", "quantities", "layout", "animal capacity", "safety zones", "practical procedures"]
     }
   },
@@ -82,7 +109,7 @@
     "studentLearningOnly": true,
     "forbiddenQuestionContent": [
       "outcome codes",
-      "programme labels",
+      "program labels",
       "teacher or administrative information",
       "assessment metadata",
       "file IDs or names",
@@ -100,23 +127,10 @@
     "backupRestore": "JSON for data; complete image-inclusive export where implemented",
     "resetRequiresConfirmation": true
   },
-  "pdf": {
-    "printSavePdfRequired": true,
-    "include": ["student name", "class", "twelve cards", "responses", "tables", "captions", "authorised images", "missing evidence notices", "completion summary"],
-    "exclude": ["teacher answer files", "hidden model answers", "navigation controls", "unconfirmed formal metadata"]
-  },
-  "releaseGates": [
-    "Teacher confirms formal task metadata and assessed outcome subset",
-    "Teacher supplies/confirms current plan or plan-reading remains visibly gated",
-    "Teacher confirms local practical, animal-care and safety procedures",
-    "Teacher confirms image/privacy and submission rules",
-    "Current verification supports published statistics, nutrition claims, industry figures, locations and animal-welfare claims",
-    "Integration passes autosave/reload, image restore, PDF, keyboard and 390 px QA"
-  ],
   "boundary": {
-    "repositoryEdited": false,
+    "repositoryEdited": true,
     "githubChanged": false,
     "published": false,
-    "handoffTarget": "TASK 11 integration"
+    "handoffTarget": "local v3.0 program and network registration stages"
   }
 }

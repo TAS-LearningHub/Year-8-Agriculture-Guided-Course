@@ -164,7 +164,7 @@
 
   function writtenHtml(module, moduleNumber, theoryIndex) {
     if (!Number.isInteger(theoryIndex)) return "";
-    return module.written.map((item, index) => ({ item, index })).filter(({ item }) => item.theoryIndex === theoryIndex).map(({ item, index }) => `<section class="card theory-section written-evidence"><p class="eyebrow">Written evidence ${index + 1}</p><h2>${esc(item.title)}</h2><p>${esc(item.prompt)}</p><button class="clarification-button" type="button" data-toggle="written-${moduleNumber}-${index}-plain" aria-expanded="false">What is this asking?</button><div class="clarification-panel" id="written-${moduleNumber}-${index}-plain" hidden>${esc(item.clarification)}</div>${helpHtml(`written-${moduleNumber}-${index}`, item.theoryIndex, module, moduleNumber)}<textarea data-save data-required name="written-${index}" aria-label="${esc(item.title)} response"></textarea><button class="btn ghost" type="button" data-model-toggle="model-${moduleNumber}-${index}" aria-expanded="false">Appropriate response example</button><div class="model-feedback" id="model-${moduleNumber}-${index}"><strong>Appropriate response example:</strong> ${esc(item.model)}</div></section>`).join("");
+    return module.written.map((item, index) => ({ item, index })).filter(({ item }) => item.theoryIndex === theoryIndex).map(({ item, index }, responseIndex) => `<section class="card theory-section written-evidence" id="written-evidence-${moduleNumber}-${theoryIndex + 1}-${responseIndex + 1}"><p class="eyebrow">Written evidence ${index + 1}</p><h2>${esc(item.title)}</h2><p>${esc(item.prompt)}</p><button class="clarification-button" type="button" data-toggle="written-${moduleNumber}-${index}-plain" aria-expanded="false">What is this asking?</button><div class="clarification-panel" id="written-${moduleNumber}-${index}-plain" hidden>${esc(item.clarification)}</div>${helpHtml(`written-${moduleNumber}-${index}`, item.theoryIndex, module, moduleNumber)}<textarea data-save data-required name="written-${index}" aria-label="${esc(item.title)} response"></textarea><button class="btn ghost" type="button" data-model-toggle="model-${moduleNumber}-${index}" aria-expanded="false">Appropriate response example</button><div class="model-feedback" id="model-${moduleNumber}-${index}"><strong>Appropriate response example:</strong> ${esc(item.model)}</div></section>`).join("");
   }
 
   function renderModule() {
@@ -173,7 +173,7 @@
     const number = Math.max(1, Math.min(course.modules.length, Number(new URLSearchParams(location.search).get("module")) || 1));
     const module = course.modules[number - 1];
     document.title = `${module.title} | ${course.shortTitle}`;
-    const cadence = module.cadence || (module.weeks ? `Weeks ${module.weeks}` : "Teacher-adjustable two-week container");
+    const cadence = module.cadence || (module.weeks ? `Weeks ${module.weeks}` : "Teacher-adjustable sequence point");
     document.querySelector("[data-module-kicker]").textContent = `${module.project} · Module ${module.projectModule} · ${cadence}`;
     document.querySelector("[data-module-title]").textContent = module.title;
     document.querySelector("[data-module-summary]").textContent = module.summary;

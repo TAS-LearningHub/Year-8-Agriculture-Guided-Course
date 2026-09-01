@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "course_id": "year-8-agriculture-guided-course",
+  "source_map_id": "year-8-agriculture-elective-source-map-v3.0",
+  "benchmark": {
+    "name": "The Riv Burger",
+    "location": "https://stevencowell.github.io/Year-8-The-Riv-Burger/",
+    "selection_basis": "junior-riv-burger-default",
+    "verified_at": "2026-09-01",
+    "rendered_evidence": {
+      "laptop": "HTTP 200 at 1440 x 900; current home and Module 1 inspected in private benchmark evidence, with no page-level horizontal overflow",
+      "exact_390": "HTTP 200 at exactly 390 x 844; current home and Module 1 inspected in private benchmark evidence with document width 390"
+    }
+  },
+  "facts_authority": {
+    "course_source_map": "year-8-agriculture-elective-source-map-v3.0",
+    "benchmark_role": "structure-and-rendering-only"
+  },
+  "dimensions": [
+    {
+      "id": "navigation-language-order",
+      "benchmark_observation": "Course, Modules, Activities, Puzzles, My folio, Assessment, Teacher resources, Main Menu",
+      "target_contract": "Course, Modules, Puzzles, My folio, Teacher resources, Main Menu",
+      "disposition": "course-appropriate-difference",
+      "difference_reason": "The authorised Agriculture source pack has no separate applied-activities route or confirmed formal assessment route. All applicable network labels retain benchmark language and relative order, and Teacher resources is restored before Main Menu."
+    },
+    {
+      "id": "route-section-order",
+      "benchmark_observation": "Landing hero and course routine, module pathway, then connected student evidence and teacher routes; module pages repeat three source-linked theory/check/evidence sections.",
+      "target_contract": "Full-width hero, course routine and honest 20-week unit boundary, eleven source-ordered module cards, plan/source boundary and outcomes; each module retains its three supplied theory/check/evidence sections, followed by folio and Teacher Resources routes.",
+      "disposition": "course-appropriate-difference",
+      "difference_reason": "The Agriculture folder authorises eleven subject modules and no current practical project route. The module count and visible plan-status boundary therefore differ while the recurring family route hierarchy remains aligned."
+    },
+    {
+      "id": "family-shell",
+      "benchmark_observation": "Full-width navigation and hero, centred reading containers, clear actions, growing cards, locally saved evidence wording and a connected Main Menu return.",
+      "target_contract": "Align the full-width navigation and hero, centred reading containers, action hierarchy, growing cards, device-local evidence wording, Teacher Resources access and Main Menu return while retaining the Agriculture identity and existing family palette.",
+      "disposition": "align",
+      "difference_reason": ""
+    },
+    {
+      "id": "responsive-presentation",
+      "benchmark_observation": "Landing and module content stack at exactly 390 px with no page-level horizontal overflow; the current narrow benchmark navigation requires horizontal access to later links.",
+      "target_contract": "Preserve the single-column stack, readable cards and zero page overflow, but wrap the complete primary navigation into visible rows and stack Teacher Resources actions so no label or table is clipped at exactly 390 px.",
+      "disposition": "course-appropriate-difference",
+      "difference_reason": "Making every primary navigation link and teacher-program control visible without horizontal searching is a bounded accessibility improvement at the required acceptance width."
+    }
+  ],
+  "initial_gate": "PASS"
+}

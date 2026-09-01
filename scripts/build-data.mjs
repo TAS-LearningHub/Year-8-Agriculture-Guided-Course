@@ -98,7 +98,7 @@ const modules = metadata.filter((item) => handoffPath(item.file)).map((item) => 
   return {
     project: "Year 8 Agriculture",
     projectModule: item.module,
-    cadence: "Teacher-adjustable two-week container",
+    cadence: `Sequence ${item.module} of 11 · teacher-adjustable within 20 weeks`,
     sourceLessonMinutes: source.sourceLessonMinutes || "50–65 minutes",
     title: item.title,
     summary: item.summary,

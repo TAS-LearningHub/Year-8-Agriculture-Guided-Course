@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "source_map_id": "year-8-agriculture-elective-source-map-v3.0",
+  "verified_date": "2026-09-01",
+  "course": {
+    "course_id": "year-8-agriculture-guided-course",
+    "title": "Agriculture",
+    "network_label": "Year 8 Agriculture Technology elective",
+    "cohort": "Year 8 / Stage 4",
+    "delivery_year": "2027",
+    "classification": "Introductory unit contributing to a 100-hour Agriculture Technology elective",
+    "duration": {
+      "weeks": 20,
+      "periods": 50,
+      "period_minutes": 60,
+      "periods_per_fortnight": 5,
+      "average_hours_per_week": 2.5
+    },
+    "completion_boundary": "This 50-period unit does not complete the 100-hour elective. Additional study is required."
+  },
+  "authority_order": [
+    "Steve's 1 September 2026 correction of the course identity, elective pathway and Year 8 timetable pattern",
+    "The authenticated 2026 Year 8 Agriculture Google Drive folder for the eleven-module order and supplied lesson intent",
+    "Agriculture Technology 7–10 Syllabus (2024) for official course requirements, content and outcome wording",
+    "The current course repository for delivered learning evidence and source-safe boundaries",
+    "The current rendered Riv Burger site for network structure and responsive presentation only"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Steve's Agriculture course realignment direction",
+      "authority_domain": "course identity, Year 8 elective status and alignment to the other Year 8 elective timetable pattern",
+      "location": "current Codex task",
+      "revision": "received 2026-09-01"
+    },
+    {
+      "id": "S02",
+      "title": "Year 8 Agriculture 2026 authorised Drive sequence",
+      "authority_domain": "eleven-module order, supplied lesson plans, theory slides, activities and answer copies",
+      "location": "authenticated Google Drive folder",
+      "provider_folder_id": "1Xs_4kwIpp1b-tNongrs2STuOo_GNnMkm",
+      "inventory_path": "source-notes/DRIVE-SOURCE-INVENTORY.csv",
+      "inventory_sha256": "05e5cb5b6deb8c799c24208420a378fdf2656298d015f1a0dcca07a01aef2649",
+      "current_folder_file_count": 45,
+      "verified_date": "2026-09-01",
+      "boundary": "The Drive sequence does not establish a 22-week timetable, complete practical sequence, formal assessment task or dimensioned project plan."
+    },
+    {
+      "id": "S03",
+      "title": "Agriculture Technology 7–10 Syllabus (2024) — course overview",
+      "authority_domain": "official course identity, implementation advice and 100-hour elective requirements",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+      "snapshot_sha256": "073419607f0d885dbfca2a5cb1bc244c398f13233948e0d420b9278dbe5c0793",
+      "snapshot_scope": "private build evidence; authoritative URL remains canonical",
+      "verified_date": "2026-09-01"
+    },
+    {
+      "id": "S04",
+      "title": "Agriculture Technology 7–10 Syllabus (2024) — outcomes",
+      "authority_domain": "official outcome codes, exact wording and Stage 4 adjustment rule",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/outcomes",
+      "snapshot_sha256": "249aefa43c44f133651c53e4e1ec299a56744baa8294de5e54a884b55d2c0a37",
+      "snapshot_scope": "private build evidence; authoritative URL remains canonical",
+      "verified_date": "2026-09-01"
+    },
+    {
+      "id": "S05",
+      "title": "Agriculture Technology 7–10 Syllabus (2024) — Plant production",
+      "authority_domain": "official Stage 5 plant-production content available for age-appropriate Stage 4 adjustment",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa1b886033",
+      "snapshot_sha256": "de565fc6e9d5c5196f30eaf1e6397794b589ab622f60168ab43f1d992292d228",
+      "verified_date": "2026-09-01"
+    },
+    {
+      "id": "S06",
+      "title": "Agriculture Technology 7–10 Syllabus (2024) — Animal production",
+      "authority_domain": "official Stage 5 animal-production content available for age-appropriate Stage 4 adjustment",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa84e43857",
+      "snapshot_sha256": "d6266c8a0dc9e353e7bb3c7611e3d0db1bf183042609c283a78abf0aa922098d",
+      "verified_date": "2026-09-01"
+    },
+    {
+      "id": "S07",
+      "title": "Agriculture Technology 7–10 Syllabus (2024) — Agriculture systems and practice",
+      "authority_domain": "official Stage 5 systems-and-practice content available for age-appropriate Stage 4 adjustment",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/content/stage-5/fa51218d9b",
+      "snapshot_sha256": "6ed13e4f056f347fb2a4061bfea5b9c5d30828c4ba6626ccdfbd0d012df3f799",
+      "verified_date": "2026-09-01"
+    },
+    {
+      "id": "S08",
+      "title": "Year 8 Agriculture guided course repository",
+      "authority_domain": "current delivered learning content, evidence features and explicit source boundaries",
+      "location": "candidate root",
+      "revision": "baseline commit 756f62dd8bd8ee5ef5f1233219a516f2fa5fd89e"
+    },
+    {
+      "id": "S09",
+      "title": "The Riv Burger",
+      "authority_domain": "network structure and rendered presentation only",
+      "location": "https://stevencowell.github.io/Year-8-The-Riv-Burger/",
+      "revision": "live rendered 2026-09-01",
+      "render_evidence": [
+        "private benchmark evidence: riv-home-laptop.png",
+        "private benchmark evidence: riv-home-exact-390.png",
+        "private benchmark evidence: riv-module-1-laptop.png",
+        "private benchmark evidence: riv-module-1-exact-390.png"
+      ]
+    }
+  ],
+  "syllabus": {
+    "family_key": "agriculture-technology-7-10-2024",
+    "title": "Agriculture Technology 7–10 Syllabus (2024)",
+    "version": "2024",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+    "status": "Implementation from 2027",
+    "implementation_basis": "current mandatory syllabus for 2027 delivery",
+    "verified_date": "2026-09-01",
+    "outcome_code_family": "AGT5 adjusted for Year 8 under AGT4-ADJ-01",
+    "stage_adjustment": {
+      "code": "AGT4-ADJ-01",
+      "statement": "in Stage 4 teachers may adjust the Stage 5 outcomes as appropriate to the needs of students in Years 7 and 8"
+    },
+    "outcomes": [
+      { "code": "AGT5-SAF-01", "statement": "applies production processes and safe work practices in agricultural contexts" },
+      { "code": "AGT5-APG-01", "statement": "explains factors that influence animal and plant selection, growth and development in agricultural enterprises and systems" },
+      { "code": "AGT5-PRA-01", "statement": "explains industry practices in agricultural enterprises and systems" },
+      { "code": "AGT5-ENV-01", "statement": "analyses relationships between agricultural production, sustainability and consumers" },
+      { "code": "AGT5-IVT-01", "statement": "investigates and assesses the influence of innovation and management practices on agricultural enterprises and systems" },
+      { "code": "AGT5-USE-01", "statement": "selects and justifies the use of technologies and processes in agricultural production and systems" },
+      { "code": "AGT5-COM-01", "statement": "communicates ideas and concepts in agricultural technology contexts" }
+    ],
+    "focus_areas": [
+      "Plant production",
+      "Animal production",
+      "Agriculture systems and practice"
+    ],
+    "whole_course_requirements": {
+      "scope": "100-hour elective only; not claimed as complete within this 50-period unit",
+      "requirements": [
+        "at least 2 enterprises drawing on appropriate focus areas",
+        "one intensive or one extensive enterprise",
+        "one plant enterprise and one animal enterprise",
+        "at least one collaborative activity"
+      ]
+    }
+  },
+  "expected_structure": [
+    { "module_id": "m01", "title": "Introduction to Agriculture", "section_ids": ["m01-s01", "m01-s02", "m01-s03"] },
+    { "module_id": "m02", "title": "The Value of Agriculture and Food Security", "section_ids": ["m02-s01", "m02-s02", "m02-s03"] },
+    { "module_id": "m03", "title": "Introduction to Beef Cattle and Breeds", "section_ids": ["m03-s01", "m03-s02", "m03-s03"] },
+    { "module_id": "m04", "title": "Beef Cattle Farming and Nutrition", "section_ids": ["m04-s01", "m04-s02", "m04-s03"] },
+    { "module_id": "m05", "title": "Dairy Breeds and Milk Production", "section_ids": ["m05-s01", "m05-s02", "m05-s03"] },
+    { "module_id": "m06", "title": "Dairy Processing and Nutrition", "section_ids": ["m06-s01", "m06-s02", "m06-s03"] },
+    { "module_id": "m07", "title": "Horticulture and Growing Regions", "section_ids": ["m07-s01", "m07-s02", "m07-s03"] },
+    { "module_id": "m08", "title": "Paddock to Plate — Technology, Nutrition and Choice", "section_ids": ["m08-s01", "m08-s02", "m08-s03"] },
+    { "module_id": "m09", "title": "Australian Pork Industry and Breeds", "section_ids": ["m09-s01", "m09-s02", "m09-s03"] },
+    { "module_id": "m10", "title": "Pig Farming Systems and Feeding", "section_ids": ["m10-s01", "m10-s02", "m10-s03"] },
+    { "module_id": "m11", "title": "Australian Poultry Industry — Farm to Plate", "section_ids": ["m11-s01", "m11-s02", "m11-s03"] }
+  ],
+  "learning_package_state": {
+    "required_shape": "three sections per module; ten MCQs and one higher-order long response per section",
+    "current_shape": "three sections and ten MCQs per section are present; the inherited course currently retains two written responses per section",
+    "status": "scoped realignment preserves current learning content; consolidation to one response and a current presentation set remain separate rework before full initial-build acceptance"
+  },
+  "visual_coverage": {
+    "target_distinct_assets": 45,
+    "current_distinct_teaching_assets": 45,
+    "basis": "Thirty-three section-matched theory visuals and twelve folio evidence visuals serve the eleven-module, twenty-week unit. The separate hero is not counted."
+  },
+  "program_family": {
+    "in_scope": true,
+    "program_kind": "unit",
+    "family_key": "agriculture-technology-7-10-2024",
+    "syllabus_title": "Agriculture Technology 7–10 Syllabus (2024)",
+    "course_family": "Agriculture",
+    "stage": "Stage 4 / Year 8",
+    "project": "Agriculture introductory elective unit",
+    "duration": { "value": 50, "unit": "periods" },
+    "master_program_id": null,
+    "master_relationship": "master-not-established",
+    "master_coverage_state": "gap-recorded",
+    "site_state": "confirmed-public",
+    "canonical_public_url": "https://stevencowell.github.io/Year-8-Agriculture-Guided-Course/",
+    "central_library_target": "https://stevencowell.github.io/Main-Page/subject-program-library/",
+    "palette": {
+      "mode": "existing-syllabus-tone",
+      "registry_key": "agriculture-technology-7-10-2024",
+      "syllabus_tone": "agriculture",
+      "focus_area_key": ""
+    },
+    "local_registration_authority": "delegated to the parent task for the Main Page candidate",
+    "course_publication_authority": "not authorised",
+    "main_page_publication_authority": "not authorised",
+    "library_publication_authority": "not authorised"
+  },
+  "fact_boundary": {
+    "permitted_authoring": [
+      "Age-appropriate Agriculture Technology theory, examples, checks and evidence grounded in the selected syllabus and suitable authoritative sources",
+      "Conceptual comparison of plant, animal, production, consumer, sustainability and innovation systems already supported by the authorised lessons",
+      "Teacher-adjustable sequencing of the eleven supplied modules within the confirmed fifty-period allocation"
+    ],
+    "prohibited_inference": [
+      "A 22-week timetable or equal two-week allocation for every module",
+      "Local practical methods, animal-care procedures, facilities, tools, chemicals, food handling, quantities or safety controls",
+      "A dimensioned production plan, project brief, assessment task, marks, dates, submission process or approval status",
+      "Completion of the whole 100-hour elective requirements by this 50-period unit"
+    ]
+  },
+  "teacher_to_confirm": [
+    "Period-by-period placement of the eleven modules within the confirmed 20-week and 50-period allocation",
+    "The additional 50 hours of study that will complete the 100-hour elective",
+    "The plant and animal enterprises, intensive or extensive enterprise, and collaborative activity used across the complete 100-hour course",
+    "Any practical or fieldwork sequence, facilities, animal-care requirements, tools, materials, chemicals, local WHS controls and supervision",
+    "A current plan or production brief and its evidence requirements",
+    "Any formal assessment notification, rubric, marks, dates or submission route"
+  ],
+  "release_authority": {
+    "local_build": "authorised",
+    "commit": "not authorised",
+    "push": "not authorised",
+    "deploy": "not authorised",
+    "live_verification": "not applicable until deployment is authorised"
+  }
+}

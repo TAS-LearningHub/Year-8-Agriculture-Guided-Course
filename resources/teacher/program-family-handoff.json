@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "program_id": "year-8-agriculture-elective-program",
+  "program_kind": "unit",
+  "source_binding": {
+    "source_map_id": "year-8-agriculture-elective-source-map-v3.0",
+    "source_map_sha256": "b7389155d47a54634df9f8db06345db01946aac470ea288a6dc03f414927337b",
+    "integration_baseline_id": "year-8-agriculture-elective-program-guided-data",
+    "integration_baseline_path": "guided/data.js",
+    "integration_baseline_sha256": "f5a7ae9d707078170f4dfb1a336d24564932a8da10bfcb87ec03b3b4da4afbaf",
+    "stage13_integration_manifest": "Scoped realignment: site integration recorded in source-notes/build-scope-v3.0.md"
+  },
+  "course": {
+    "title": "Year 8 Agriculture",
+    "family": "Agriculture",
+    "stage": "Stage 4",
+    "course": "Agriculture Technology",
+    "version": "v3.0",
+    "duration": {
+      "value": 50,
+      "unit": "periods"
+    },
+    "source_duration": "20 weeks | 50 x 60-minute periods | 5 periods per fortnight | average 2.5 hours per week",
+    "timetable_placement": "Year 8 elective pattern; exact calendar dates remain teacher controlled",
+    "site_state": "confirmed-public",
+    "site_url": "https://stevencowell.github.io/Year-8-Agriculture-Guided-Course/",
+    "release_authority": "Existing public site confirmed; this corrected candidate has no commit, push or deployment authority."
+  },
+  "syllabus": {
+    "family_key": "agriculture-technology-7-10-2024",
+    "title": "Agriculture Technology 7–10 Syllabus (2024)",
+    "version": "2024",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+    "status": "Implemented from 2027",
+    "verified_date": "2026-09-01",
+    "implementation_basis": "Implemented from 2027",
+    "outcome_code_family": "AGT5"
+  },
+  "palette": {
+    "mode": "existing-syllabus-tone",
+    "syllabus_tone": "agriculture-technology-7-10-2024"
+  },
+  "master_relationship": {
+    "state": "master-not-established",
+    "coverage_state": "gap-recorded",
+    "note": "The current Agriculture Technology master is Stage 5. No Stage 4 master is established, so this 50-period introductory unit records a separate Stage 4 gap and does not claim the full 100-hour course."
+  },
+  "teacher_resources": {
+    "route": "teacher-resources.html",
+    "links": [
+      {
+        "label": "Teaching program PDF",
+        "artifact_role": "rendered-program"
+      },
+      {
+        "label": "Editable teaching program",
+        "artifact_role": "editable-program"
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "role": "editable-program",
+      "path": "Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.docx",
+      "sha256": "c56e69ea629ba909d417c93c7de13b05526ebe0e5cbbc18e7a558492cc0e33e5"
+    },
+    {
+      "role": "rendered-program",
+      "path": "Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.pdf",
+      "sha256": "25d3285248516816a44a23c394961e1fd6692c1285a3fade51351a0132cc7392"
+    },
+    {
+      "role": "alignment-manifest",
+      "path": "Agriculture-50-Period-Alignment-Manifest-v3.0.json",
+      "sha256": "118b4914258de815bb9ae8158e1ca9d9cafb1816477e6c71fe63c04d39f252ba"
+    },
+    {
+      "role": "site-map",
+      "path": "Agriculture-50-Period-Site-Map-v3.0.json",
+      "sha256": "c97717c495b5a7833d38bad914bf434a428b65eebe6373f3da54e84756ade748"
+    },
+    {
+      "role": "delivery-register",
+      "path": "Agriculture-50-Period-Delivery-Register-v3.0.docx",
+      "sha256": "7665a297dab3796ff548f15ed9f0000ec7b43ea03afda4924000aae26b01d606"
+    },
+    {
+      "role": "program-manifest",
+      "path": "Agriculture-50-Period-Program-Manifest-v3.0.json",
+      "sha256": "5026aabc5a592db87a0228ef7439c691fbe2ecea6d06abe84867f2a7e5b16d80"
+    }
+  ],
+  "library_card": {
+    "title": "Year 8 Agriculture",
+    "family": "Agriculture",
+    "stage": "Stage 4",
+    "course": "Agriculture Technology",
+    "periods": 50,
+    "version": "v3.0",
+    "introUnit": true,
+    "syllabusAligned": true,
+    "pdf": "programs/Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.pdf",
+    "docx": "programs/Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.docx",
+    "manifest": "programs/Agriculture-50-Period-Alignment-Manifest-v3.0.json",
+    "syllabusTitle": "Agriculture Technology 7–10 Syllabus (2024)",
+    "syllabusUrl": "https://curriculum.nsw.edu.au/learning-areas/tas/agriculture-technology-7-10-2024/overview/course",
+    "syllabusStatus": "Implemented from 2027",
+    "syllabusVerified": "1 September 2026",
+    "site": "https://stevencowell.github.io/Year-8-Agriculture-Guided-Course/"
+  },
+  "registration": {
+    "state": "handoff-ready",
+    "canonical_library_url": "https://stevencowell.github.io/Main-Page/subject-program-library/"
+  }
+}
