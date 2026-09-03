@@ -62,17 +62,17 @@
     {
       "role": "editable-program",
       "path": "Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.docx",
-      "sha256": "c56e69ea629ba909d417c93c7de13b05526ebe0e5cbbc18e7a558492cc0e33e5"
+      "sha256": "b1824edcfb16e011e3e16bcf98e6a500a77580fddbc04d5db54f767392ff19c5"
     },
     {
       "role": "rendered-program",
       "path": "Agriculture-50-Period-Teaching-Program-v3.0-2027-Elective.pdf",
-      "sha256": "25d3285248516816a44a23c394961e1fd6692c1285a3fade51351a0132cc7392"
+      "sha256": "0c998acf57f94b42280070d41bff7370867ed72cb94ec3e22447ab71957fd321"
     },
     {
       "role": "alignment-manifest",
       "path": "Agriculture-50-Period-Alignment-Manifest-v3.0.json",
-      "sha256": "118b4914258de815bb9ae8158e1ca9d9cafb1816477e6c71fe63c04d39f252ba"
+      "sha256": "f959b719b390268758aa2bce22f33e5c79645e4007bdc0c55002a4014f651427"
     },
     {
       "role": "site-map",
@@ -87,7 +87,7 @@
     {
       "role": "program-manifest",
       "path": "Agriculture-50-Period-Program-Manifest-v3.0.json",
-      "sha256": "5026aabc5a592db87a0228ef7439c691fbe2ecea6d06abe84867f2a7e5b16d80"
+      "sha256": "0f730a891439c339d49a5072b7fc632a8ceeb814bfcb5ca4e0a305154c263e5a"
     }
   ],
   "library_card": {
